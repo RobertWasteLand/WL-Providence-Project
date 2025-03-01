@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+
+<!--                                            [Cult Cap]                                                 -->
+
+
+    <files>
+        <path>media/clothing/clothingItems/white_heavycultcap.xml</path>
+        <guid>7f1b227f-828f-464f-8234-0774d6a8afbe</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/black_heavycultcap.xml</path>
+        <guid>cdc6054d-cce7-4288-8595-526fe97b7b86</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/cultcommandercap.xml</path>
+        <guid>e6e1c9b0-319b-44ad-ad9d-0e0db4b4cd47</guid>
+    </files>
+	<files>
+        <path>media/clothing/clothingItems/fez.xml</path>
+        <guid>73cffb6d-70d8-4d52-bd6c-af91daeac1f1</guid>
+    </files>
+	
+<!--                                            [Cult Other]                                                 -->
+
+    <files>
+        <path>media/clothing/clothingItems/glasses_orange_aviators.xml</path>
+        <guid>f8c54273-3503-4b5f-97f3-7a7deead72b7</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/cult_ribbion.xml</path>
+        <guid>acd2348e-b26f-4312-8b53-856fc8b51809</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/CCOUniform.xml</path>
+        <guid>ffbee46d-c71e-4872-b034-9c4b8ee5cc42</guid>
+    </files>
+	
+<!--                                            [Moes Stuff]                                                 -->
+    <files>
+        <path>media/clothing/clothingItems/CustodianMedal.xml</path>
+        <guid>bf36d0dc-698d-448f-813b-abe917b4200c</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/MowerMedal.xml</path>
+        <guid>fcdb86c4-d166-4fba-917b-041e9fc95a54</guid>
+    </files>
+
+</fileGuidTable>

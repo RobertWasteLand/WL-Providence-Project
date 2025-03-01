@@ -1,0 +1,92 @@
+module Base
+{
+    item white_heavycultcap
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = White Heavy Cult Cap,
+		ClothingItem = white_heavycultcap,
+		BodyLocation = Hat,
+		Icon = white_heavycultcapicon,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+		BiteDefense = 100,
+		ScratchDefense = 100,
+		ChanceToFall = 10,
+		Insulation = 0.25,
+		WaterResistance = 0.2,
+        Weight = 3,
+        WorldStaticModel = white_heavycultcap_Ground,
+    }
+    item black_heavycultcap
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Black Heavy Cult Cap,
+		ClothingItem = black_heavycultcap,
+		BodyLocation = Hat,
+		Icon = black_heavycultcapicon,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+		BiteDefense = 100,
+		ScratchDefense = 100,
+		ChanceToFall = 10,
+		Insulation = 0.25,
+		WaterResistance = 0.2,
+        Weight = 3,
+        WorldStaticModel = black_heavycultcap_Ground,
+    }
+    item cultcommandercap
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Supreme Commander Cap,
+		ClothingItem = cultcommandercap,
+		BodyLocation = Hat,
+		Icon = cultcommandercapicon,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+		BiteDefense = 100,
+		ScratchDefense = 100,
+		ChanceToFall = 10,
+		Insulation = 0.25,
+		WaterResistance = 0.2,
+        Weight = 3,
+        WorldStaticModel = supremecultcommandercap_Ground,
+    }
+    item fez
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Fez,
+		ClothingItem = fez,
+		BodyLocation = Hat,
+		Icon = fezicon,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+		BiteDefense = 100,
+		ScratchDefense = 100,
+		ChanceToFall = 10,
+		Insulation = 0.25,
+		WaterResistance = 0.2,
+        Weight = 3,
+        WorldStaticModel = fez_ground,
+    }
+    item CCOUniform
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = CCO Uniform,
+        ClothingItem = CCOUniform,
+        BodyLocation = Jacket_Bulky,
+        BloodLocation = Jacket,
+        Icon = CCOUniformIcon,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.95,
+        ScratchDefense = 20,
+        NeckProtectionModifier = 0.5,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = CCOUniformGround,
+    }
+}

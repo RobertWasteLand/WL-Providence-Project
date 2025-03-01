@@ -1,0 +1,48 @@
+module Base
+{
+	item glasses_orange_aviators
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Supreme Commander Aviators,
+		ClothingItem = glasses_orange_aviators,
+		BodyLocation = Eyes,
+		Icon = glasses_orange_aviatorsicons,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 50,
+	}
+    item cult_ribbion
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Cult Ribbion,
+		ClothingItem = cult_ribbion,
+		BodyLocation = TorsoExtra,
+		Icon = cult_ribbionicon,
+		FabricType = Cotton,
+		WorldStaticModel = CultRibbionGround,
+	}
+    item MowerMedal
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Mower Medal,
+		ClothingItem = MowerMedal,
+		BodyLocation = TorsoExtra,
+		Icon = MowerMedalIcon,
+		FabricType = Cotton,
+		WorldStaticModel = MowerMedalGround,
+	}
+    item CustodianMedal
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Custodian Medal,
+		ClothingItem = CustodianMedal,
+		BodyLocation = TorsoExtra,
+		Icon = CustodianMedalIcon,
+		FabricType = Cotton,
+		WorldStaticModel = CustodianMedalGround,
+	}
+}
