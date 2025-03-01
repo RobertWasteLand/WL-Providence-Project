@@ -1,2 +1,10 @@
-# WL Providence Project
- Roberts WL Project
+SPECIAL THANK YOU TO 
+
+ROBO
+GEEBUS
+COCO
+RAT
+V.
+NYAR
+
+SPOONGIE FOR THE CULT JACKET!
