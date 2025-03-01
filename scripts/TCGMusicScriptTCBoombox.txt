@@ -1,0 +1,69 @@
+module Tsarcraft
+{
+	imports
+	{
+		Base
+	}
+/********************Generated Music Carriers********************/
+
+	item CassetteProvidenceKeepYourRiflebyYourSide
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Providence - Keep Your Rifle by Your Side,
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteProvidenceMisbehavin(1989)
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette Providence - Misbehavin (1989),
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteProvidenceNowHesOurFather
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette Providence - Now Hes Our Father,
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteProvidenceOhJohn
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Providence - Oh John,
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteProvidenceSomeBrokenHeartsNeverMend
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Providence - Some Broken Hearts Never Mend,
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteProvidenceTherellComeaPayday(LiveatZionsLanding)
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Providence - Therell Come a Payday (Live at Zions Landing),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+}
