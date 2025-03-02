@@ -23,26 +23,4 @@ module Base
 		FabricType = Cotton,
 		WorldStaticModel = CultRibbionGround,
 	}
-    item MowerMedal
-	{
-	    DisplayCategory = Clothing,
-		Type = Clothing,
-		DisplayName = Mower Medal,
-		ClothingItem = MowerMedal,
-		BodyLocation = TorsoExtra,
-		Icon = MowerMedalIcon,
-		FabricType = Cotton,
-		WorldStaticModel = MowerMedalGround,
-	}
-    item CustodianMedal
-	{
-	    DisplayCategory = Clothing,
-		Type = Clothing,
-		DisplayName = Custodian Medal,
-		ClothingItem = CustodianMedal,
-		BodyLocation = TorsoExtra,
-		Icon = CustodianMedalIcon,
-		FabricType = Cotton,
-		WorldStaticModel = CustodianMedalGround,
-	}
 }

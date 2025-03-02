@@ -35,15 +35,5 @@
         <path>media/clothing/clothingItems/CCOUniform.xml</path>
         <guid>ffbee46d-c71e-4872-b034-9c4b8ee5cc42</guid>
     </files>
-	
-<!--                                            [Moes Stuff]                                                 -->
-    <files>
-        <path>media/clothing/clothingItems/CustodianMedal.xml</path>
-        <guid>bf36d0dc-698d-448f-813b-abe917b4200c</guid>
-    </files>
-    <files>
-        <path>media/clothing/clothingItems/MowerMedal.xml</path>
-        <guid>fcdb86c4-d166-4fba-917b-041e9fc95a54</guid>
-    </files>
 
 </fileGuidTable>

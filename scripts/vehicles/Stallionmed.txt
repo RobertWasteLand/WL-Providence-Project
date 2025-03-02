@@ -51,6 +51,11 @@ module Base
 		textureDamage1Shell = Vehicles/null,
 		textureDamage2Shell = Vehicles/null,
 		textureRust = Vehicles/null,
+		
+		lightbar
+		{
+			soundSiren = VehicleSiren,
+		}
 
 		sound
 		{
