@@ -48,15 +48,23 @@ module Base
         {
             texture = Vehicles/Vehicles_RobBatteringRamTex,
         }
-
-        sound
-        {
-            engine = VehicleEngineSound,
-            engineStart = VehicleEngineStartSound,
-            engineTurnOff = VehicleEngineTurnOffSound,
-            horn = VehicleHornSound,
-            ignitionFail = VehicleIgnitionFailSound,
-        }
+		
+		textureMask = Vehicles/null,
+		textureLights = Vehicles/null,
+		textureDamage1Overlay = Vehicles/null,
+		textureDamage2Overlay = Vehicles/null,
+		textureDamage1Shell = Vehicles/null,
+		textureDamage2Shell = Vehicles/null,
+		textureRust = Vehicles/null,
+		
+		sound
+		{
+			engine = VehicleEngineSmallCar,
+			engineStart = VehicleEngineSmallCar,
+			engineTurnOff = VehicleEngineSmallCar,
+			horn = StallionHorn,
+			ignitionFail = VehicleIgnitionFailSmallCar,
+		}
 
         extents = 2.38 1.96 5.02,
         mass = 700,
@@ -322,13 +330,6 @@ module Base
                 update = Vehicles.Update.PassengerCompartment,
             }
         }
-
-        template = Windshield/part/Windshield,
-        template = Windshield/part/WindshieldRear,
-
-        template = Window/part/WindowFrontLeft,
-        template = Window/part/WindowFrontRight,
-
 
         template = Door/part/DoorFrontLeft,
         template = Door/part/DoorFrontRight,
