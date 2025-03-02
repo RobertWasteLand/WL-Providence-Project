@@ -1,5 +1,10 @@
-module Base
+module WLRob
 {
+    imports
+    {
+        Base
+    }
+	
     item white_heavycultcap
 	{
 	    DisplayCategory = Accessory,

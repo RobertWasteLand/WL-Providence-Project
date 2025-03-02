@@ -28,7 +28,7 @@ module Base
 		mesh = vehicles/Vehicle_batteringram_wheel,
 		texture = vehicles/Vehicles_RobBatteringRamTex,
 	}
-    vehicle Battering Ram 
+    vehicle BatteringRam 
     {
         mechanicType = 2,
         engineRepairLevel = 5,

@@ -1,5 +1,10 @@
-module Base
+module WLRob
 {
+    imports
+    {
+        Base
+    }
+	
 	item glasses_orange_aviators
 	{
 	    DisplayCategory = Accessory,
@@ -16,7 +21,7 @@ module Base
 	{
 	    DisplayCategory = Clothing,
 		Type = Clothing,
-		DisplayName = Cult Ribbion,
+		DisplayName = Cult Ribbon,
 		ClothingItem = cult_ribbion,
 		BodyLocation = TorsoExtra,
 		Icon = cult_ribbionicon,

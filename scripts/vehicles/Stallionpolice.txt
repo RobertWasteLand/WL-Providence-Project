@@ -23,7 +23,7 @@ module Base
 		mesh = vehicles/stallionbackwheel,
 		texture = vehicles/whitewallwheel,
 	}
-	vehicle Stallion Utility Police
+	vehicle StallionUtilityPolice
 	{
 		mechanicType = 1,
 		offRoadEfficiency = 0.7,
