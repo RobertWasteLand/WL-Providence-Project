@@ -28,4 +28,23 @@ module WLRob
 		FabricType = Cotton,
 		WorldStaticModel = CultRibbionGround,
 	}
+    item cult_grunt_jacket
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Cult Grunt Jacket,
+        ClothingItem = cult_grunt_jacket,
+        BodyLocation = JacketSuit,
+        BloodLocation = Jacket,
+        Icon = cultgruntjacketicon,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.95,
+        ScratchDefense = 20,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.40,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = cultgruntjacketGround,
+    }
 }

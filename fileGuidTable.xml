@@ -35,5 +35,9 @@
         <path>media/clothing/clothingItems/cult_ribbion.xml</path>
         <guid>acd2348e-b26f-4312-8b53-856fc8b51809</guid>
     </files>
+    <files>
+        <path>media/clothing/clothingItems/cult_grunt_jacket.xml</path>
+        <guid>8383c5c3-a09e-4426-8295-1283a052134c</guid>
+    </files>
 
 </fileGuidTable>
