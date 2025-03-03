@@ -77,21 +77,22 @@ module WLRob
         Weight = 3,
         WorldStaticModel = fez_ground,
     }
-    item CCOUniform
-    {
-        DisplayCategory = Clothing,
-        Type = Clothing,
-        DisplayName = CCO Uniform,
-        ClothingItem = CCOUniform,
-        BodyLocation = Jacket_Bulky,
-        BloodLocation = Jacket,
-        Icon = CCOUniformIcon,
-        RunSpeedModifier = 0.95,
-        CombatSpeedModifier = 0.95,
-        ScratchDefense = 20,
-        NeckProtectionModifier = 0.5,
-        FabricType = Cotton,
-        Weight = 2,
-        WorldStaticModel = CCOUniformGround,
+    item BlackProvidenceSoldierCap
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Providence Grunt Cap,
+		ClothingItem = BlackProvidenceSoldierCap,
+		BodyLocation = Hat,
+		Icon = fezicon,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+		BiteDefense = 100,
+		ScratchDefense = 100,
+		ChanceToFall = 10,
+		Insulation = 0.25,
+		WaterResistance = 0.2,
+        Weight = 3,
+        WorldStaticModel = BlackProvidenceSoldierCap_Ground,
     }
 }

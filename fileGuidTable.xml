@@ -20,6 +20,10 @@
         <path>media/clothing/clothingItems/fez.xml</path>
         <guid>73cffb6d-70d8-4d52-bd6c-af91daeac1f1</guid>
     </files>
+	<files>
+        <path>media/clothing/clothingItems/BlackProvidenceSoldierCap.xml</path>
+        <guid>bc275b39-c87b-4315-b064-13f7129101b7</guid>
+    </files>
 	
 <!--                                            [Cult Other]                                                 -->
 
@@ -30,10 +34,6 @@
     <files>
         <path>media/clothing/clothingItems/cult_ribbion.xml</path>
         <guid>acd2348e-b26f-4312-8b53-856fc8b51809</guid>
-    </files>
-    <files>
-        <path>media/clothing/clothingItems/CCOUniform.xml</path>
-        <guid>ffbee46d-c71e-4872-b034-9c4b8ee5cc42</guid>
     </files>
 
 </fileGuidTable>
