@@ -47,4 +47,19 @@ module WLRob
         Weight = 2,
         WorldStaticModel = cultgruntjacketGround,
     }
+    item cult_grunt_trousers
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Cult Grunt Trousers,
+        ClothingItem = cult_grunt_trousers,
+        BodyLocation = Pants,
+        Icon = cultgrunttrousersicon,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.4,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = cultgrunttrousersGround,
+    }
 }

@@ -39,5 +39,9 @@
         <path>media/clothing/clothingItems/cult_grunt_jacket.xml</path>
         <guid>8383c5c3-a09e-4426-8295-1283a052134c</guid>
     </files>
+    <files>
+        <path>media/clothing/clothingItems/cult_grunt_trousers.xml</path>
+        <guid>43a43447-0994-492c-a84c-5ff8a448dac9</guid>
+    </files>
 
 </fileGuidTable>
