@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>static\clothes\m_provodienceJRcommandercap</m_MaleModel>
+	<m_FemaleModel>static\clothes\f_provodienceJRcommandercap</m_FemaleModel>
+	<m_GUID>95bd0af6-2903-4f73-a9e3-60212375f607</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Head</m_AttachBone>
+	<m_HatCategory>default</m_HatCategory>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>Cultjrcommandercap</textureChoices>
+</clothingItem>

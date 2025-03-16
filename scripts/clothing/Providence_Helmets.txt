@@ -9,7 +9,7 @@ module WLRob
 	{
 	    DisplayCategory = Accessory,
 		Type = Clothing,
-		DisplayName = White Heavy Cult Cap,
+		DisplayName = Providence White 4-Star General Cap,
 		ClothingItem = white_heavycultcap,
 		BodyLocation = Hat,
 		Icon = white_heavycultcapicon,
@@ -27,7 +27,7 @@ module WLRob
 	{
 	    DisplayCategory = Accessory,
 		Type = Clothing,
-		DisplayName = Black Heavy Cult Cap,
+		DisplayName = Providence Black 4-Star General Cap,
 		ClothingItem = black_heavycultcap,
 		BodyLocation = Hat,
 		Icon = black_heavycultcapicon,
@@ -45,7 +45,7 @@ module WLRob
 	{
 	    DisplayCategory = Accessory,
 		Type = Clothing,
-		DisplayName = Supreme Commander Cap,
+		DisplayName = Providence 5-Star General Cap,
 		ClothingItem = cultcommandercap,
 		BodyLocation = Hat,
 		Icon = cultcommandercapicon,
@@ -63,7 +63,7 @@ module WLRob
 	{
 	    DisplayCategory = Accessory,
 		Type = Clothing,
-		DisplayName = Fez,
+		DisplayName = Providence Fez,
 		ClothingItem = fez,
 		BodyLocation = Hat,
 		Icon = fezicon,
@@ -102,7 +102,7 @@ module WLRob
 	{
 	    DisplayCategory = Accessory,
 		Type = Clothing,
-		DisplayName = Providence Grunt Cap Visor,
+		DisplayName = Providence Grunt Cap Visor-On,
 		ClothingItem = BlackProvidenceSoldierCapVisorUp,
 		BodyLocation = Hat,
 		Icon = BlackProvCapTex,
@@ -118,5 +118,23 @@ module WLRob
 		ClothingItemExtra = BlackProvidenceSoldierCap,
         ClothingItemExtraOption = HelmetVisorDown,
         clothingExtraSubmenu = HelmetVisorUp,
+    }
+    item BlackProvidenceJrCommanderCap
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Providence 3-Star General Cap,
+		ClothingItem = BlackProvidenceJrCommanderCap,
+		BodyLocation = Hat,
+		Icon = ProvidenceJrCommanderCapTex,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+		BiteDefense = 100,
+		ScratchDefense = 100,
+		ChanceToFall = 10,
+		Insulation = 0.25,
+		WaterResistance = 0.2,
+        Weight = 3,
+        WorldStaticModel = BlackProvidenceSoldierCap_Ground,
     }
 }
