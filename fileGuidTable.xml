@@ -24,6 +24,10 @@
         <path>media/clothing/clothingItems/BlackProvidenceSoldierCap.xml</path>
         <guid>bc275b39-c87b-4315-b064-13f7129101b7</guid>
     </files>
+	<files>
+        <path>media/clothing/clothingItems/BlackProvidenceSoldierCapVisorUp.xml</path>
+        <guid>b0b074b8-7bc1-4305-9b3b-c3fc050fc22b</guid>
+    </files>
 	
 <!--                                            [Cult Other]                                                 -->
 

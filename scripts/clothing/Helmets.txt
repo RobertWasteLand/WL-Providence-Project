@@ -93,6 +93,26 @@ module WLRob
 		Insulation = 0.25,
 		WaterResistance = 0.2,
         Weight = 3,
+    }
+    item BlackProvidenceSoilderCapVisorUp
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Providence Grunt Cap Visor,
+		ClothingItem = BlackProvidenceSoldierCap,
+		BodyLocation = Hat,
+		Icon = fezicon,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+		BiteDefense = 100,
+		ScratchDefense = 100,
+		ChanceToFall = 10,
+		Insulation = 0.25,
+		WaterResistance = 0.2,
+        Weight = 3,
         WorldStaticModel = BlackProvidenceSoldierCap_Ground,
+		ClothingItemExtra = BlackProvidenceSoldierCap,
+        ClothingItemExtraOption = HelmetVisorDown,
+        clothingExtraSubmenu = HelmetVisorUp,
     }
 }
