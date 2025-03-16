@@ -84,7 +84,7 @@ module WLRob
 		DisplayName = Providence Grunt Cap,
 		ClothingItem = BlackProvidenceSoldierCap,
 		BodyLocation = Hat,
-		Icon = fezicon,
+		Icon = BlackProvCapTex,
 		CanHaveHoles = false,
 		BloodLocation = Head,
 		BiteDefense = 100,
@@ -93,15 +93,19 @@ module WLRob
 		Insulation = 0.25,
 		WaterResistance = 0.2,
         Weight = 3,
+        WorldStaticModel = BlackProvidenceSoldierCap_Ground,
+		ClothingItemExtra = BlackProvidenceSoldierCapVisorUp,
+        ClothingItemExtraOption = HelmetVisorDown,
+        clothingExtraSubmenu = HelmetVisorUp,
     }
-    item BlackProvidenceSoilderCapVisorUp
+    item BlackProvidenceSoldierCapVisorUp
 	{
 	    DisplayCategory = Accessory,
 		Type = Clothing,
 		DisplayName = Providence Grunt Cap Visor,
-		ClothingItem = BlackProvidenceSoldierCap,
+		ClothingItem = BlackProvidenceSoldierCapVisorUp,
 		BodyLocation = Hat,
-		Icon = fezicon,
+		Icon = BlackProvCapTex,
 		CanHaveHoles = false,
 		BloodLocation = Head,
 		BiteDefense = 100,
