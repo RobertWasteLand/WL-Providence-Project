@@ -1,4 +1,4 @@
-module WLRob
+module Base
 
 {
 	model SOPMoneyground
@@ -7,15 +7,15 @@ module WLRob
 		texture = WorldItems/SOPMoneyTex,
 		scale = 0.1,
 	}
-	model ProvidenceBattleStandardModel
-    {
-        mesh = Weapons/2Handed/Baseballbat,
-        texture = Weapons/2Handed/ProvidenceBattleStandardtex,
+	model ProvidenceBattleStandard
+	{
+		mesh = Weapons/2Handed/ProvidenceBattleStandardModel,
+		texture = Weapons/2Handed/ProvidenceBattleStandardtex,
 
 		attachment world
 		{
 			offset = 0.0000 0.0000 0.0000,
 			rotate = 0.0000 0.0000 0.0000,
 		}
-    }
+	}
 }
