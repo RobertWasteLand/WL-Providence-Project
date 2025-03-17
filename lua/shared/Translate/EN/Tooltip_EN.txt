@@ -1,0 +1,3 @@
+Tooltip_EN = {
+	Tooltip_ProvidenceCurrency = "The flimsy paper in your hand seems to be some kind of legal tender printed by some sort of political entity. |-| !!!YOU CAN INSPECT THIS > RIGHT CLICK > READ MAP!!!"
+}

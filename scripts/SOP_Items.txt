@@ -1,0 +1,10 @@
+module WLRob
+
+{
+	model SOPMoneyground
+	{
+		mesh = WorldItems/SOPMoneymodel,
+		texture = WorldItems/SOPMoneyTex,
+		scale = 0.1,
+	}
+}

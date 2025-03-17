@@ -1,0 +1,15 @@
+module WLRob
+
+{
+	item SOPCurrency
+	{
+		DisplayCategory = Literature,
+		Weight = 0.1,
+		Type = Map,
+		DisplayName = Providence Legal Tender,
+		Icon = SOPCurrencyIcon.png,
+		Map = SOPCurrency,
+		Tooltip = Tooltip_ProvidenceCurrency,
+		WorldStaticModel = SOPMoneyground
+	}
+}
