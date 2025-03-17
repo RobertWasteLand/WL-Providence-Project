@@ -4,7 +4,7 @@ module WLRob
     {
         DisplayCategory = Weapon,
         MaxRange	=	1.1,
-        WeaponSprite	=	Providence_Battle_Standard,
+        WeaponSprite	=	ProvidenceBattleStandard,
         MinAngle	=	0.8,
         Type	=	Weapon,
         MinimumSwingTime	=	2,
