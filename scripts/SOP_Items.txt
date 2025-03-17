@@ -7,9 +7,9 @@ module WLRob
 		texture = WorldItems/SOPMoneyTex,
 		scale = 0.1,
 	}
-	model ProvidenceBattleStandard
+	model ProvidenceBattleStandardModel
     {
-        mesh = Weapons/2Handed/ProvidenceBattleStandard,
+        mesh = Weapons/2Handed/Baseballbat,
         texture = Weapons/2Handed/ProvidenceBattleStandardtex,
 
 		attachment world
