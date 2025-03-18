@@ -29,7 +29,7 @@ module Base
 		{
 			file = VehiclesCannonBase,
 			scale = 1.3700,
-			offset = 0.0000 0.4234 0.0000,
+			offset = 0.0000 0.4088 0.0000,
 		}
 
 		spawnOffsetY = 0.19392952,
@@ -46,12 +46,12 @@ module Base
 		textureDamage1Shell = Vehicles/null,
 		textureDamage2Shell = Vehicles/null,
 		textureRust = Vehicles/null,
-		extents = 0.8759 0.8029 1.5182,
+		extents = 0.8759 0.5255 0.5401,
 		mass = 200,
-		physicsChassisShape = 0.8759 0.8029 1.5182,
-		centerOfMassOffset = 0.0000 0.5766 -0.1825,
-		shadowExtents = 0.8773 1.8285,
-		shadowOffset = 0.0000 0.0034,
+		physicsChassisShape = 0.8759 0.5547 0.6131,
+		centerOfMassOffset = 0.0000 0.4307 0.3577,
+		shadowExtents = 0.3591 0.6825,
+		shadowOffset = 0.0000 0.1275,
 		engineForce = 3600,
 		engineQuality = 60,
 		engineLoudness = 55,
@@ -73,28 +73,28 @@ module Base
 
 		physics box
 		{
-			offset = 0.1095 0.3285 1.1971,
+			offset = 0.1095 0.3504 1.1971,
 			extents = 0.0549 0.0549 0.5385,
 			rotate = 0.0000 -20.0000 0.0000,
 		}
 
 		physics box
 		{
-			offset = -0.1095 0.3285 1.1971,
+			offset = -0.1095 0.3504 1.1971,
 			extents = 0.0549 0.0549 0.5385,
 			rotate = 0.0000 20.0000 0.0000,
 		}
 
 		physics sphere
 		{
-			offset = 0.0000 0.3285 1.4453,
+			offset = 0.0000 0.3504 1.4453,
 			radius = 0.0549,
 		}
 
 		wheel FrontLeft
 		{
 			front = true,
-			offset = -0.5328 -0.1387 -0.0219,
+			offset = -0.5328 -0.2482 -0.0219,
 			radius = 0.15f,
 			width = 0.2f,
 		}
@@ -102,7 +102,7 @@ module Base
 		wheel FrontRight
 		{
 			front = true,
-			offset = 0.5109 -0.1387 -0.0219,
+			offset = 0.5109 -0.2336 -0.0219,
 			radius = 0.15f,
 			width = 0.2f,
 		}
@@ -150,7 +150,7 @@ module Base
 
 		attachment trailer
 		{
-			offset = 0.0000 -0.1095 1.4526,
+			offset = 0.0000 -0.3796 1.5182,
 			rotate = 0.0000 0.0000 0.0000,
 			canAttach = trailer,
 			updateconstraint = false,
