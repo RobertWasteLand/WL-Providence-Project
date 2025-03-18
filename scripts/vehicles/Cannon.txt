@@ -29,7 +29,7 @@ module Base
 		{
 			file = VehiclesCannonBase,
 			scale = 1.3700,
-			offset = 0.0000 0.2701 0.0000,
+			offset = 0.0000 0.1825 0.0000,
 		}
 
 		spawnOffsetY = 0.19392952,
@@ -46,12 +46,12 @@ module Base
 		textureDamage1Shell = Vehicles/null,
 		textureDamage2Shell = Vehicles/null,
 		textureRust = Vehicles/null,
-		extents = 0.9343 0.7007 2.4672,
+		extents = 0.8759 0.8029 2.4818,
 		mass = 200,
-		physicsChassisShape = 0.9197 0.7299 2.4526,
-		centerOfMassOffset = 0.0000 0.3139 0.3212,
-		shadowExtents = 0.4028 2.4416,
-		shadowOffset = 0.0000 0.3245,
+		physicsChassisShape = 0.8759 0.8029 2.4672,
+		centerOfMassOffset = 0.0000 0.4161 0.3066,
+		shadowExtents = 0.8773 1.8285,
+		shadowOffset = 0.0000 0.0034,
 		engineForce = 3600,
 		engineQuality = 60,
 		engineLoudness = 55,
@@ -71,10 +71,30 @@ module Base
 		rearEndHealth = 150,
 		seats = 2,
 
+		physics box
+		{
+			offset = 0.1095 0.0730 1.1971,
+			extents = 0.0549 0.0549 0.5385,
+			rotate = 0.0000 -20.0000 0.0000,
+		}
+
+		physics box
+		{
+			offset = -0.1095 0.0730 1.1971,
+			extents = 0.0549 0.0549 0.5385,
+			rotate = 0.0000 20.0000 0.0000,
+		}
+
+		physics sphere
+		{
+			offset = 0.0000 0.0803 1.4891,
+			radius = 0.0549,
+		}
+
 		wheel FrontLeft
 		{
 			front = true,
-			offset = 0.5182 -0.1825 0.0000,
+			offset = -0.5036 -0.1460 0.0000,
 			radius = 0.15f,
 			width = 0.2f,
 		}
@@ -82,7 +102,7 @@ module Base
 		wheel FrontRight
 		{
 			front = true,
-			offset = -0.5182 -0.1825 0.0000,
+			offset = 0.5036 -0.1460 0.0000,
 			radius = 0.15f,
 			width = 0.2f,
 		}
@@ -101,11 +121,14 @@ module Base
 		template = Tire/part/TireFrontRight,
 		template = Suspension/part/SuspensionFrontLeft,
 		template = Suspension/part/SuspensionFrontRight,
-		template = Suspension/part/SuspensionRearLeft,
-		template = Suspension/part/SuspensionRearRight,
 
 		part TireFrontLeft
 		{
+			table install
+			{
+				requireInstalled = SuspensionFrontLeft,
+			}
+
 			model InflatedTirePlusWheel
 			{
 				file = Vehicle_CannonWheelleft,
@@ -114,6 +137,11 @@ module Base
 
 		part TireFrontRight
 		{
+			table install
+			{
+				requireInstalled = SuspensionFrontRight,
+			}
+
 			model InflatedTirePlusWheel
 			{
 				file = Vehicle_CannonWheelRight,
@@ -122,10 +150,9 @@ module Base
 
 		attachment trailer
 		{
-			offset = 0.0000 -0.0949 1.5109,
+			offset = 0.0000 -0.0949 1.5036,
 			rotate = 0.0000 0.0000 0.0000,
 			canAttach = trailer,
-			updateconstraint = false,
 		}
 	}
 }
