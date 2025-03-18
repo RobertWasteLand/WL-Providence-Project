@@ -363,12 +363,9 @@ module Base
 			}
 		}
 
-		template = Radio,
-		template = Headlight,
-
 		attachment trailer
 		{
-			offset = 0.0000 -0.2703 -1.6757,
+			offset = 0.0000 -0.2703 -1.7432,
 			rotate = 0.0000 0.0000 0.0000,
 			zoffset = -1.0000,
 		}
