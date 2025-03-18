@@ -1,0 +1,131 @@
+module Base
+{
+	model VehiclesCannonBase
+	{
+		mesh = vehicles/vehicle_Cannon,
+		shader = vehicle,
+		invertX = FALSE,
+		scale = 1,
+	}
+	model Vehicle_CannonWheelleft
+	{
+		mesh = vehicles/CannonWheelleft,
+		texture = vehicles/CannonWheelTexture,
+		shader = vehiclewheel,
+	}
+	model Vehicle_CannonWheelRight
+	{
+		mesh = vehicles/CannonWheelRight,
+		texture = vehicles/CannonWheelTexture,
+	}
+	vehicle Cannon
+	{
+		mechanicType = 1,
+		offRoadEfficiency = 0.8,
+		engineRepairLevel = 4,
+		playerDamageProtection = 0.8,
+
+		model
+		{
+			file = VehiclesCannonBase,
+			scale = 1.3700,
+			offset = 0.0000 0.2701 0.0000,
+		}
+
+		spawnOffsetY = 0.19392952,
+
+		skin
+		{
+			texture = Vehicles/CannonTexture,
+		}
+
+		textureMask = Vehicles/CannonTexture,
+		textureLights = Vehicles/null,
+		textureDamage1Overlay = Vehicles/null,
+		textureDamage2Overlay = Vehicles/null,
+		textureDamage1Shell = Vehicles/null,
+		textureDamage2Shell = Vehicles/null,
+		textureRust = Vehicles/null,
+		extents = 0.9343 0.7007 2.4672,
+		mass = 200,
+		physicsChassisShape = 0.9197 0.7299 2.4526,
+		centerOfMassOffset = 0.0000 0.3139 0.3212,
+		shadowExtents = 0.4028 2.4416,
+		shadowOffset = 0.0000 0.3245,
+		engineForce = 3600,
+		engineQuality = 60,
+		engineLoudness = 55,
+		maxSpeed = 70f,
+		brakingForce = 1,
+		stoppingMovementForce = 2.0f,
+		rollInfluence = 1.0f,
+		steeringIncrement = 0.03,
+		steeringClamp = 0.3,
+		suspensionStiffness = 40,
+		suspensionCompression = 2.83,
+		suspensionDamping = 2.88,
+		maxSuspensionTravelCm = 10,
+		suspensionRestLength = 0.2,
+		wheelFriction = 4.0f,
+		frontEndHealth = 150,
+		rearEndHealth = 150,
+		seats = 2,
+
+		wheel FrontLeft
+		{
+			front = true,
+			offset = 0.5182 -0.1825 0.0000,
+			radius = 0.15f,
+			width = 0.2f,
+		}
+
+		wheel FrontRight
+		{
+			front = true,
+			offset = -0.5182 -0.1825 0.0000,
+			radius = 0.15f,
+			width = 0.2f,
+		}
+
+		area TireFrontLeft
+		{
+			xywh = 0.7007 0.0000 0.4526 0.4818,
+		}
+
+		area TireFrontRight
+		{
+			xywh = -0.7007 0.0000 0.4526 0.4818,
+		}
+
+		template = Tire/part/TireFrontLeft,
+		template = Tire/part/TireFrontRight,
+		template = Suspension/part/SuspensionFrontLeft,
+		template = Suspension/part/SuspensionFrontRight,
+		template = Suspension/part/SuspensionRearLeft,
+		template = Suspension/part/SuspensionRearRight,
+
+		part TireFrontLeft
+		{
+			model InflatedTirePlusWheel
+			{
+				file = Vehicle_CannonWheelleft,
+			}
+		}
+
+		part TireFrontRight
+		{
+			model InflatedTirePlusWheel
+			{
+				file = Vehicle_CannonWheelRight,
+			}
+		}
+
+		attachment trailer
+		{
+			offset = 0.0000 -0.0949 1.5109,
+			rotate = 0.0000 0.0000 0.0000,
+			canAttach = trailer,
+			updateconstraint = false,
+		}
+	}
+}
