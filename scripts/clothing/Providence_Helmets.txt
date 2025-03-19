@@ -137,4 +137,46 @@ module WLRob
         Weight = 3,
         WorldStaticModel = BlackProvidenceSoldierCap_Ground,
     }
+    item GreenProvidenceSoldierCap_art
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Providence Artillery Grunt Cap,
+		ClothingItem = GreenProvidenceSoldierCap_art,
+		BodyLocation = Hat,
+		Icon = BlackProvCapTex,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+		BiteDefense = 100,
+		ScratchDefense = 100,
+		ChanceToFall = 10,
+		Insulation = 0.25,
+		WaterResistance = 0.2,
+        Weight = 3,
+        WorldStaticModel = GreenProvidenceSoldierCap_Ground,
+		ClothingItemExtra = GreenProvidenceSoldierCapVisorUp_art,
+        ClothingItemExtraOption = HelmetVisorDown,
+        clothingExtraSubmenu = HelmetVisorUp,
+    }
+    item GreenProvidenceSoldierCapVisorUp_art
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Providence Artillery Grunt Cap Visor-On,
+		ClothingItem = GreenProvidenceSoldierCapVisorUp_art,
+		BodyLocation = Hat,
+		Icon = BlackProvCapTex,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+		BiteDefense = 100,
+		ScratchDefense = 100,
+		ChanceToFall = 10,
+		Insulation = 0.25,
+		WaterResistance = 0.2,
+        Weight = 3,
+        WorldStaticModel = GreenProvidenceSoldierCap_Ground,
+		ClothingItemExtra = GreenProvidenceSoldierCap_art,
+        ClothingItemExtraOption = HelmetVisorDown,
+        clothingExtraSubmenu = HelmetVisorUp,
+    }
 }

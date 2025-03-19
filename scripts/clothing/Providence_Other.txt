@@ -68,7 +68,25 @@ module WLRob
         DisplayName = Providence Scrap Armour,
         ClothingItem = cult_armour,
         BodyLocation = TorsoExtraVest,
-        Icon = cultarmourtex,
+        Icon = cultarmour_icon,
+        BloodLocation = ShirtNoSleeves,
+        RunSpeedModifier = 0.98,
+        CombatSpeedModifier = 0.98,
+        BiteDefense = 30,
+        ScratchDefense = 55,
+        BulletDefense = 100,
+        Insulation = 0.6,
+        WindResistance = 0.35,
+        Weight = 2.5,
+        WorldStaticModel = cultarmourtexGround,
+        }
+    item cult_armour_art
+         {
+        Type = Clothing,
+        DisplayName = Providence Artillery Scrap Armour,
+        ClothingItem = cult_armour_art,
+        BodyLocation = TorsoExtraVest,
+        Icon = cultarmourart_icon,
         BloodLocation = ShirtNoSleeves,
         RunSpeedModifier = 0.98,
         CombatSpeedModifier = 0.98,
@@ -98,5 +116,39 @@ module WLRob
         FabricType = Cotton,
         WaterResistance = 0.55,
         WorldStaticModel = JacketCoat_Ground,
+    }
+    item cult_grunt_jacket_art
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Providence Artillery Grunt Jacket,
+        ClothingItem = cult_grunt_jacket_art,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = cultgruntjacketicon,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.95,
+        ScratchDefense = 20,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.40,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = greencultgruntjacketGround,
+    }
+    item cult_grunt_trousers_art
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Providence Artillery Grunt Trousers,
+        ClothingItem = cult_grunt_trousers_art,
+        BodyLocation = Pants,
+        Icon = cultgrunttrousersicon,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.4,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = greencultgrunttrousersGround,
     }
 }

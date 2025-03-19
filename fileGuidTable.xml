@@ -36,6 +36,14 @@
         <path>media/clothing/clothingItems/BlackProvidenceJrCommanderCap.xml</path>
         <guid>95bd0af6-2903-4f73-a9e3-60212375f607</guid>
     </files>
+	<files>
+        <path>media/clothing/clothingItems/GreenProvidenceSoldierCap_art.xml</path>
+        <guid>5dbcbad1-4ab4-4b6d-bb41-c1f78bfc7065</guid>
+    </files>
+	<files>
+        <path>media/clothing/clothingItems/GreenProvidenceSoldierCapVisorUp_art.xml</path>
+        <guid>060a28ae-9f00-43ef-9e3f-435be2c77c0b</guid>
+    </files>
 	
 <!--                                            [Cult Other]                                                 -->
 
@@ -56,8 +64,20 @@
         <guid>43a43447-0994-492c-a84c-5ff8a448dac9</guid>
     </files>
     <files>
+        <path>media/clothing/clothingItems/cult_grunt_jacket_art.xml</path>
+        <guid>daf0957e-75e8-4cfe-bc2d-2cee31b2422f</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/cult_grunt_trousers_art.xml</path>
+        <guid>b544b2a3-1734-48ca-93aa-341527f4876b</guid>
+    </files>
+    <files>
         <path>media/clothing/clothingItems/cult_armour.xml</path>
         <guid>eefcaea1-a558-4817-b0fe-8c752e5e4095</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/cult_armour_art.xml</path>
+        <guid>b1196dfb-4241-4463-8045-825f519719e6</guid>
     </files>
 
 </fileGuidTable>
