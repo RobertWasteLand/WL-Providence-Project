@@ -52,6 +52,10 @@
         <guid>f8c54273-3503-4b5f-97f3-7a7deead72b7</guid>
     </files>
     <files>
+        <path>media/clothing/clothingItems/glasses_scout_aviators.xml</path>
+        <guid>51a3b98a-7638-46fa-b1b8-f2d999ce6215</guid>
+    </files>
+    <files>
         <path>media/clothing/clothingItems/cult_ribbion.xml</path>
         <guid>acd2348e-b26f-4312-8b53-856fc8b51809</guid>
     </files>

@@ -17,6 +17,18 @@ module WLRob
 		Cosmetic = TRUE,
 		ChanceToFall = 50,
 	}
+	item glasses_scout_aviators
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Providence Scout Aviators,
+		ClothingItem = glasses_scout_aviators,
+		BodyLocation = Eyes,
+		Icon = glasses_scout_aviatorsicons,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 50,
+	}
     item cult_ribbion
 	{
 	    DisplayCategory = Clothing,
