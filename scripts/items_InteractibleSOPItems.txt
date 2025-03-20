@@ -12,4 +12,15 @@ module WLRob
 		Tooltip = Tooltip_ProvidenceCurrency,
 		WorldStaticModel = SOPMoneyground
 	}
+	item SOPMap
+	{
+		DisplayCategory = Literature,
+		Weight = 0.1,
+		Type = Map,
+		DisplayName = Providence Mass-Produced Map,
+		Icon = SOPmapIcon.png,
+		Map = SOPMap,
+		Tooltip = Tooltip_Providencemap,
+		WorldStaticModel = SOPmapground
+	}
 }

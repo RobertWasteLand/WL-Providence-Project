@@ -117,7 +117,7 @@ module WLRob
         DisplayName = Providence 3-Star General Jacket,
         ClothingItem = BlackProvidenceJrCommandJacket,
         BodyLocation = Jacket,
-        Icon = JacketArmyDress,
+        Icon = BlackProvidenceJrCommanderJacketicon,
         BloodLocation = LongJacket,
         RunSpeedModifier = 0.95,
         BiteDefense = 20,

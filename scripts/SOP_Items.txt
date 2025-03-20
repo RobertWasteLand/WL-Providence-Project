@@ -7,6 +7,12 @@ module Base
 		texture = WorldItems/SOPMoneyTex,
 		scale = 0.1,
 	}
+	model SOPmapground
+	{
+		mesh = WorldItems/Map,
+		texture = WorldItems/SOPMapTex,
+		scale = 0.5,
+	}
 	model ProvidenceBattleStandard
 	{
 		mesh = Weapons/2Handed/ProvidenceBattleStandardModel,

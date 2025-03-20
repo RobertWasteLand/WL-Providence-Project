@@ -29,3 +29,11 @@ LootMaps.Init.SOPCurrency = function(mapUI)
     mapAPI:setBoundsInSquares(PaperX1, PaperY1, 528.0, 318.0)
     overlayPNG(mapUI, PaperX1, PaperY1, 1.0, "lootMapPNG", "media/ui/LootableMaps/SOPCurrency.png", 1.0)
 end
+
+LootMaps.Init.SOPMap = function(mapUI)
+    local mapAPI = mapUI.javaObject:getAPIv1()
+    MapUtils.initDirectoryMapData(mapUI, 'media/maps/Muldraugh, KY')
+    MapUtils.initDefaultStyleV1(mapUI)
+    mapAPI:setBoundsInSquares(PaperX1, PaperY1, 770.0, 710.0)
+    overlayPNG(mapUI, PaperX1, PaperY1, 1.0, "lootMapPNG", "media/ui/LootableMaps/SOPMap.png", 1.0)
+end
