@@ -2,11 +2,11 @@
 <clothingItem>
 	<m_MaleModel>skinned\clothes\M_SpongieFieldJacket</m_MaleModel>
 	<m_FemaleModel>skinned\clothes\F_SpongieFieldJacket</m_FemaleModel>
-	<m_GUID>daf0957e-75e8-4cfe-bc2d-2cee31b2422f</m_GUID>
+	<m_GUID>5bad697b-d78a-4e3a-81cb-f0bb27db117a</m_GUID>
 	<m_Static>false</m_Static>
 	<m_AllowRandomHue>false</m_AllowRandomHue>
 	<m_AllowRandomTint>false</m_AllowRandomTint>
 	<m_AttachBone></m_AttachBone>
 	<m_MasksFolder>media/textures/Clothes/SuitJacket/Masks</m_MasksFolder>
-	<textureChoices>FieldJacket_Inf_2</textureChoices>
+	<textureChoices>FieldJacket_Inf_3</textureChoices>
 </clothingItem>

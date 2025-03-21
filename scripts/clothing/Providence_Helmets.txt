@@ -23,6 +23,24 @@ module WLRob
         Weight = 3,
         WorldStaticModel = white_heavycultcap_Ground,
     }
+    item enforcer_cap
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Providence Enforcer Helmet,
+		ClothingItem = enforcer_cap,
+		BodyLocation = Hat,
+		Icon = enforcerhelmeticon,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+		BiteDefense = 100,
+		ScratchDefense = 100,
+		ChanceToFall = 10,
+		Insulation = 0.25,
+		WaterResistance = 0.2,
+        Weight = 3,
+        WorldStaticModel = enforcerhelmet_Ground,
+    }
     item black_heavycultcap
 	{
 	    DisplayCategory = Accessory,
@@ -116,6 +134,48 @@ module WLRob
         Weight = 3,
         WorldStaticModel = BlackProvidenceSoldierCap_Ground,
 		ClothingItemExtra = BlackProvidenceSoldierCap,
+        ClothingItemExtraOption = HelmetVisorDown,
+        clothingExtraSubmenu = HelmetVisorUp,
+    }
+    item OrangeProvidenceSoldierCap
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Providence Grenadier Grunt Cap,
+		ClothingItem = OrangeProvidenceSoldierCap,
+		BodyLocation = Hat,
+		Icon = BlackProvCapTex,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+		BiteDefense = 100,
+		ScratchDefense = 100,
+		ChanceToFall = 10,
+		Insulation = 0.25,
+		WaterResistance = 0.2,
+        Weight = 3,
+        WorldStaticModel = BlackProvidenceSoldierCap_Ground,
+		ClothingItemExtra = OrangeProvidenceSoldierCapVisorUp,
+        ClothingItemExtraOption = HelmetVisorDown,
+        clothingExtraSubmenu = HelmetVisorUp,
+    }
+    item OrangeProvidenceSoldierCapVisorUp
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Providence Grunt Grenadier  Cap Visor-On,
+		ClothingItem = OrangeProvidenceSoldierCapVisorUp,
+		BodyLocation = Hat,
+		Icon = BlackProvCapTex,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+		BiteDefense = 100,
+		ScratchDefense = 100,
+		ChanceToFall = 10,
+		Insulation = 0.25,
+		WaterResistance = 0.2,
+        Weight = 3,
+        WorldStaticModel = BlackProvidenceSoldierCap_Ground,
+		ClothingItemExtra = OrangeProvidenceSoldierCap,
         ClothingItemExtraOption = HelmetVisorDown,
         clothingExtraSubmenu = HelmetVisorUp,
     }

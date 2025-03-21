@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\m_cultarmour_gernader</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\f_cultarmour_gernader</m_FemaleModel>
+	<m_GUID>32da158e-185c-4e27-9d99-8c9ba77f087e</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>cultarmourgrenadiertex</textureChoices>
+</clothingItem>
