@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\m_cultarmourmed</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\m_cultarmourmed</m_FemaleModel>
+	<m_GUID>fc3ecc2d-89ff-4cfb-9ddf-7ea644ff1a9d</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>cultarmourmedicaltex</textureChoices>
+</clothingItem>

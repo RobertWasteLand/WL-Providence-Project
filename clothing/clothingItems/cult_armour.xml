@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <clothingItem>
 	<m_MaleModel>skinned\clothes\m_cultarmour</m_MaleModel>
-	<m_FemaleModel>skinned\clothes\m_cultarmour</m_FemaleModel>
+	<m_FemaleModel>skinned\clothes\f_cultarmour</m_FemaleModel>
 	<m_GUID>eefcaea1-a558-4817-b0fe-8c752e5e4095</m_GUID>
 	<m_Static>false</m_Static>
 	<m_AllowRandomTint>false</m_AllowRandomTint>

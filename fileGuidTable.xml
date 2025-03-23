@@ -111,5 +111,9 @@
         <path>media/clothing/clothingItems/cult_armour_art.xml</path>
         <guid>b1196dfb-4241-4463-8045-825f519719e6</guid>
     </files>
+    <files>
+        <path>media/clothing/clothingItems/cult_armour_med.xml</path>
+        <guid>fc3ecc2d-89ff-4cfb-9ddf-7ea644ff1a9d</guid>
+    </files>
 
 </fileGuidTable>
