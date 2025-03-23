@@ -2,10 +2,10 @@
 <clothingItem>
 	<m_MaleModel>Skinned\clothes\m_enforcerwalkitalki</m_MaleModel>
 	<m_FemaleModel>Skinned\clothes\f_enforcerwalkitalki</m_FemaleModel>
-	<m_GUID>acd2348e-b26f-4312-8b53-856fc8b51809</m_GUID>
+	<m_GUID>96b1036d-6390-4ca7-b1cb-0415089dc1ae</m_GUID>
 	<m_Static>false</m_Static>
 	<m_AllowRandomHue>false</m_AllowRandomHue>
 	<m_AllowRandomTint>false</m_AllowRandomTint>
 	<m_AttachBone></m_AttachBone>
-	<textureChoices>WalkieTalkie_Tactical</textureChoices>
+	<textureChoices>WalkieTalkie_Enfrocer</textureChoices>
 </clothingItem>
