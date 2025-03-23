@@ -68,6 +68,10 @@
         <guid>96b1036d-6390-4ca7-b1cb-0415089dc1ae</guid>
     </files>
     <files>
+        <path>media/clothing/clothingItems/enforcer_walki_loosen.xml</path>
+        <guid>be25480e-f587-41cf-9c6a-b2cf6d4fb1ab</guid>
+    </files>
+    <files>
         <path>media/clothing/clothingItems/enforcer_jacket.xml</path>
         <guid>378d4829-ead3-483f-87fe-1ad99bb037fd</guid>
     </files>
