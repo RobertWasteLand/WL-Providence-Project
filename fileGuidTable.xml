@@ -33,6 +33,14 @@
         <guid>b0b074b8-7bc1-4305-9b3b-c3fc050fc22b</guid>
     </files>
 	<files>
+        <path>media/clothing/clothingItems/MedicalProvidenceSoldierCap.xml</path>
+        <guid>b672349e-7507-48e3-b683-bf465e0d5c87</guid>
+    </files>
+	<files>
+        <path>media/clothing/clothingItems/MedicalProvidenceSoldierCapVisorUp.xml</path>
+        <guid>8e2e1cd2-38b3-4e8c-9e9c-8a82f5d8054e</guid>
+    </files>
+	<files>
         <path>media/clothing/clothingItems/BlackProvidenceJrCommandJacket.xml</path>
         <guid>03dc1ad9-6820-4f40-9664-e7d172f32aa2</guid>
     </files>
@@ -68,10 +76,6 @@
         <guid>96b1036d-6390-4ca7-b1cb-0415089dc1ae</guid>
     </files>
     <files>
-        <path>media/clothing/clothingItems/enforcer_walki_loosen.xml</path>
-        <guid>be25480e-f587-41cf-9c6a-b2cf6d4fb1ab</guid>
-    </files>
-    <files>
         <path>media/clothing/clothingItems/enforcer_jacket.xml</path>
         <guid>378d4829-ead3-483f-87fe-1ad99bb037fd</guid>
     </files>
@@ -90,6 +94,10 @@
     <files>
         <path>media/clothing/clothingItems/cult_grunt_trousers.xml</path>
         <guid>43a43447-0994-492c-a84c-5ff8a448dac9</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/cult_grunt_jacket_medical.xml</path>
+        <guid>ce807c64-b5cc-42e6-93d2-cd46b874ba0e</guid>
     </files>
     <files>
         <path>media/clothing/clothingItems/cult_grunt_jacket_art.xml</path>

@@ -137,6 +137,48 @@ module WLRob
         ClothingItemExtraOption = HelmetVisorDown,
         clothingExtraSubmenu = HelmetVisorUp,
     }
+    item MedicalProvidenceSoldierCap
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Providence Medical Grunt Cap,
+		ClothingItem = MedicalProvidenceSoldierCap,
+		BodyLocation = Hat,
+		Icon = BlackProvCapTex,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+		BiteDefense = 100,
+		ScratchDefense = 100,
+		ChanceToFall = 10,
+		Insulation = 0.25,
+		WaterResistance = 0.2,
+        Weight = 3,
+        WorldStaticModel = BlackProvidenceSoldierCap_Ground,
+		ClothingItemExtra = MedicalProvidenceSoldierCapVisorUp,
+        ClothingItemExtraOption = HelmetVisorDown,
+        clothingExtraSubmenu = HelmetVisorUp,
+    }
+    item MedicalProvidenceSoldierCapVisorUp
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Providence Medical Grunt Cap Visor-On,
+		ClothingItem = MedicalProvidenceSoldierCapVisorUp,
+		BodyLocation = Hat,
+		Icon = BlackProvCapTex,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+		BiteDefense = 100,
+		ScratchDefense = 100,
+		ChanceToFall = 10,
+		Insulation = 0.25,
+		WaterResistance = 0.2,
+        Weight = 3,
+        WorldStaticModel = BlackProvidenceSoldierCap_Ground,
+		ClothingItemExtra = MedicalProvidenceSoldierCap,
+        ClothingItemExtraOption = HelmetVisorDown,
+        clothingExtraSubmenu = HelmetVisorUp,
+    }
     item OrangeProvidenceSoldierCap
 	{
 	    DisplayCategory = Accessory,

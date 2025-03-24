@@ -50,23 +50,6 @@ module WLRob
 		Icon = CHANGELATER-GEEBUS,
 		FabricType = Cotton,
 		WorldStaticModel = CHANGELATER-GEEBUS,
-		ClothingItemExtra = enforcer_walki_loosen,
-        ClothingItemExtraOption = HelmetVisorDown,
-        clothingExtraSubmenu = HelmetVisorUp,
-	}
-    item enforcer_walki_loosen
-	{
-	    DisplayCategory = Clothing,
-		Type = Clothing,
-		DisplayName = Providence Enforcer Chest-Walki Loosend,
-		ClothingItem = enforcer_walki_loosen,
-		BodyLocation = TorsoExtra,
-		Icon = CHANGELATER-GEEBUS,
-		FabricType = Cotton,
-		WorldStaticModel = CHANGELATER-GEEBUS,
-	    ClothingItemExtra = enforcer_walki,
-        ClothingItemExtraOption = HelmetVisorDown,
-        clothingExtraSubmenu = HelmetVisorUp,
 	}
     item cult_grunt_jacket
     {
@@ -74,6 +57,25 @@ module WLRob
         Type = Clothing,
         DisplayName = Providence Grunt Jacket,
         ClothingItem = cult_grunt_jacket,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = cultgruntjacketicon,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.95,
+        ScratchDefense = 20,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.40,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = cultgruntjacketGround,
+    }
+    item cult_grunt_jacket_medical
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Providence Medical Grunt Jacket,
+        ClothingItem = cult_grunt_jacket_medical,
         BodyLocation = Jacket,
         BloodLocation = Jacket,
         Icon = cultgruntjacketicon,
