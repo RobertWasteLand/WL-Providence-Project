@@ -267,4 +267,38 @@ module WLRob
         FabricType = Cotton,
         WorldStaticModel = greencultgrunttrousersGround,
     }
+    item cult_Wyoming_grunt_jacket
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Providence Wyoming Region Grunt Jacket,
+        ClothingItem = cult_Wyoming_grunt_jacket,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = cultgruntjacketicon,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.95,
+        ScratchDefense = 20,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.40,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = cultgruntjacketGround,
+    }
+    item cult_Wyoming_grunt_trousers
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Providence Wyoming Region Grunt Trousers,
+        ClothingItem = cult_Wyoming_grunt_trousers,
+        BodyLocation = Pants,
+        Icon = cultgrunttrousersicon,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.4,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = greencultgrunttrousersGround,
+    }
 }

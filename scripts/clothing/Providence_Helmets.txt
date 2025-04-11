@@ -95,6 +95,24 @@ module WLRob
         Weight = 3,
         WorldStaticModel = fez_ground,
     }
+    item Tankdriverscraphelmet
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Providence Tank Driver Helmet,
+		ClothingItem = Tankdriverscraphelmet,
+		BodyLocation = Hat,
+		Icon = fezicon,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+		BiteDefense = 100,
+		ScratchDefense = 100,
+		ChanceToFall = 10,
+		Insulation = 0.25,
+		WaterResistance = 0.2,
+        Weight = 3,
+        WorldStaticModel = Tankdriverscraphelmet_ground,
+    }
     item BlackProvidenceSoldierCap
 	{
 	    DisplayCategory = Accessory,
@@ -278,6 +296,48 @@ module WLRob
         Weight = 3,
         WorldStaticModel = GreenProvidenceSoldierCap_Ground,
 		ClothingItemExtra = GreenProvidenceSoldierCap_art,
+        ClothingItemExtraOption = HelmetVisorDown,
+        clothingExtraSubmenu = HelmetVisorUp,
+    }
+    item WyomingProvidenceSoldierCap
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Providence Wyoming Region Grunt Cap,
+		ClothingItem = WyomingProvidenceSoldierCap,
+		BodyLocation = Hat,
+		Icon = GreenProvCapTex,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+		BiteDefense = 100,
+		ScratchDefense = 100,
+		ChanceToFall = 10,
+		Insulation = 0.25,
+		WaterResistance = 0.2,
+        Weight = 3,
+        WorldStaticModel = WyomingProvidenceSoldierCap_Ground,
+		ClothingItemExtra = WyomingProvidenceSoldierCapVisorUp,
+        ClothingItemExtraOption = HelmetVisorDown,
+        clothingExtraSubmenu = HelmetVisorUp,
+    }
+    item WyomingProvidenceSoldierCapVisorUp
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Providence Wyoming Region Grunt Cap Visor-On,
+		ClothingItem = WyomingProvidenceSoldierCapVisorUp,
+		BodyLocation = Hat,
+		Icon = GreenProvCapTex,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+		BiteDefense = 100,
+		ScratchDefense = 100,
+		ChanceToFall = 10,
+		Insulation = 0.25,
+		WaterResistance = 0.2,
+        Weight = 3,
+        WorldStaticModel = WyomingProvidenceSoldierCap_Ground,
+		ClothingItemExtra = WyomingProvidenceSoldierCap,
         ClothingItemExtraOption = HelmetVisorDown,
         clothingExtraSubmenu = HelmetVisorUp,
     }

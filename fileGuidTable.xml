@@ -9,6 +9,10 @@
         <guid>7f1b227f-828f-464f-8234-0774d6a8afbe</guid>
     </files>
     <files>
+        <path>media/clothing/clothingItems/Tankdriverscraphelmet.xml</path>
+        <guid>1b844213-d33b-4c5a-b55e-7615740ba955</guid>
+    </files>
+    <files>
         <path>media/clothing/clothingItems/enforcer_cap.xml</path>
         <guid>5d1f3f16-711a-4d7d-b7ca-fcf5a813b3cc</guid>
     </files>
@@ -64,12 +68,28 @@
         <path>media/clothing/clothingItems/OrangeProvidenceSoldierCapVisorUp.xml</path>
         <guid>4696bc80-e77c-4f7f-90a5-338b0fe0cb99</guid>
     </files>
+	<files>
+        <path>media/clothing/clothingItems/WyomingProvidenceSoldierCap.xml</path>
+        <guid>27d12657-d396-4170-abc7-d6f02d72a293</guid>
+    </files>
+	<files>
+        <path>media/clothing/clothingItems/WyomingProvidenceSoldierCapVisorUp.xml</path>
+        <guid>d63c42b3-ee9d-4191-9a83-9edee6c24b07</guid>
+    </files>
 	
 <!--                                            [Cult Other]                                                 -->
 
     <files>
         <path>media/clothing/clothingItems/glasses_orange_aviators.xml</path>
         <guid>f8c54273-3503-4b5f-97f3-7a7deead72b7</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/cult_Wyoming_grunt_jacket.xml</path>
+        <guid>dd2cfa46-03bf-4326-a03a-b2bd13cfa27d</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/cult_Wyoming_grunt_trousers.xml</path>
+        <guid>07e75180-ec48-414e-ba88-229970690423</guid>
     </files>
     <files>
         <path>media/clothing/clothingItems/enforcer_walki.xml</path>
