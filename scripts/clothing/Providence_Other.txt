@@ -252,6 +252,25 @@ module WLRob
         WaterResistance = 0.55,
         WorldStaticModel = ProvidenceCommanderCoat,
     }
+    item BlackProvidenceCommanderCoat
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Providence 3-Star General Coat,
+        ClothingItem = BlackProvidenceCommanderCoat,
+        BodyLocation = Back,
+        Icon = BlackProvidenceCommanderCoatIcon,
+        BloodLocation = LongJacket,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 20,
+        ScratchDefense = 40,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.70,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+        WaterResistance = 0.55,
+        WorldStaticModel = ProvidenceCommanderCoat,
+    }
     item ProvidenceCommanderCape
     {
         DisplayCategory = Clothing,

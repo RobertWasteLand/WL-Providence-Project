@@ -61,6 +61,10 @@
         <guid>907d63ae-ce6d-4f56-913a-5bd34848460b</guid>
     </files>
 	<files>
+        <path>media/clothing/clothingItems/BlackProvidenceCommanderCoat.xml</path>
+        <guid>bfa84095-4e8c-4859-bc7b-98f2fd9d801d</guid>
+    </files>
+	<files>
         <path>media/clothing/clothingItems/BlackProvidenceJrCommanderCap.xml</path>
         <guid>95bd0af6-2903-4f73-a9e3-60212375f607</guid>
     </files>
