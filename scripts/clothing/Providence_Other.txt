@@ -233,6 +233,63 @@ module WLRob
         WaterResistance = 0.55,
         WorldStaticModel = JacketCoat_Ground,
     }
+    item WhiteProvidenceCommanderCoat
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Providence 5-Star General Coat,
+        ClothingItem = WhiteProvidenceCommanderCoat,
+        BodyLocation = Back,
+        Icon = WhiteProvidenceCommanderCoatIcon,
+        BloodLocation = LongJacket,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 20,
+        ScratchDefense = 40,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.70,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+        WaterResistance = 0.55,
+        WorldStaticModel = ProvidenceCommanderCoat,
+    }
+    item ProvidenceCommanderCape
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Providence 5-Star General Cape,
+        ClothingItem = ProvidenceCommanderCape,
+        BodyLocation = Back,
+        Icon = ProvidenceCommanderCapeIcon,
+        BloodLocation = LongJacket,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 20,
+        ScratchDefense = 40,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.70,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+        WaterResistance = 0.55,
+        WorldStaticModel = ProvidenceCommanderCapeIcon,
+    }
+    item WhiteProvidenceCommandJacket
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Providence 5-Star General Jacket,
+        ClothingItem = WhiteProvidenceCommandJacket,
+        BodyLocation = Jacket,
+        Icon = WhiteProvidenceCommandJacketicon,
+        BloodLocation = LongJacket,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 20,
+        ScratchDefense = 40,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.70,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+        WaterResistance = 0.55,
+        WorldStaticModel = JacketCoat_Ground,
+    }
     item cult_grunt_jacket_art
     {
         DisplayCategory = Clothing,

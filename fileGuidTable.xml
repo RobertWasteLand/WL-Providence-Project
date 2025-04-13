@@ -29,6 +29,10 @@
         <guid>73cffb6d-70d8-4d52-bd6c-af91daeac1f1</guid>
     </files>
 	<files>
+        <path>media/clothing/clothingItems/ProvidenceCommanderCape.xml</path>
+        <guid>5be45b69-b60c-4e96-b3ca-2d87cd3dcd8a</guid>
+    </files>
+	<files>
         <path>media/clothing/clothingItems/BlackProvidenceSoldierCap.xml</path>
         <guid>bc275b39-c87b-4315-b064-13f7129101b7</guid>
     </files>
@@ -47,6 +51,14 @@
 	<files>
         <path>media/clothing/clothingItems/BlackProvidenceJrCommandJacket.xml</path>
         <guid>03dc1ad9-6820-4f40-9664-e7d172f32aa2</guid>
+    </files>
+	<files>
+        <path>media/clothing/clothingItems/WhiteProvidenceCommandJacket.xml</path>
+        <guid>d555347c-2c18-448b-b280-a80698196236</guid>
+    </files>
+	<files>
+        <path>media/clothing/clothingItems/WhiteProvidenceCommanderCoat.xml</path>
+        <guid>907d63ae-ce6d-4f56-913a-5bd34848460b</guid>
     </files>
 	<files>
         <path>media/clothing/clothingItems/BlackProvidenceJrCommanderCap.xml</path>
