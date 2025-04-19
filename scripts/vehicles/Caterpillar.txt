@@ -29,7 +29,7 @@ module Base
 		mesh = vehicles/stallionfrontwheel,
 		texture = vehicles/stallionregwheel,
 	}
-	vehicle Caterpillarbase
+	vehicle CaterpillarLightTank
 	{
 		mechanicType = 1,
 		offRoadEfficiency = 0.7,
@@ -50,8 +50,8 @@ module Base
 			texture = Vehicles/CaterpillarTex,
 		}
 
-		textureMask = Vehicles/null,
-		textureLights = Vehicles/vehicle_Caterpillar_Lights,
+		textureMask = Vehicles/Vehicles_Caterpillarbase_Mask,
+		textureLights = Vehicles/Vehicles_Caterpillarbase_Lights,
 		textureDamage1Overlay = Vehicles/null,
 		textureDamage2Overlay = Vehicles/null,
 		textureDamage1Shell = Vehicles/null,
@@ -67,13 +67,13 @@ module Base
 			ignitionFail = VehicleIgnitionFailSmallCar,
 		}
 
-		extents = 2.7297 2.1622 4.3784,
-		physicsChassisShape = 2.8919 2.1351 4.3514,
-		mass = 800,
-		centerOfMassOffset = 0.0000 1.0946 0.0811,
+		extents = 2.7297 1.3514 3.5676,
+		physicsChassisShape = 2.8919 1.3514 3.5676,
+		mass = 600,
+		centerOfMassOffset = 0.0000 0.6757 -0.2162,
 		shadowExtents = 2.7795 4.1204,
 		shadowOffset = 0.0000 0.0000,
-		engineForce = 4000,
+		engineForce = 3000,
 		maxSpeed = 90f,
 		engineLoudness = 80,
 		engineQuality = 70,

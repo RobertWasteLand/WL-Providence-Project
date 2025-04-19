@@ -28,7 +28,7 @@ module Base
 		mesh = vehicles/Vehicle_batteringram_wheel,
 		texture = vehicles/Vehicles_RobBatteringRamTex,
 	}
-	vehicle BatteringRam
+	vehicle BatteringRamHeavyTank
 	{
 		mechanicType = 2,
 		engineRepairLevel = 5,
@@ -50,7 +50,7 @@ module Base
 		}
 
 		textureMask = Vehicles/null,
-		textureLights = Vehicles/null,
+		textureLights = Vehicles/vehicle_stallion_lights,
 		textureDamage1Overlay = Vehicles/null,
 		textureDamage2Overlay = Vehicles/null,
 		textureDamage1Shell = Vehicles/null,

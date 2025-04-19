@@ -44,8 +44,8 @@ module Base
 			texture = Vehicles/vehicle_Stallionpoltex,
 		}
 
-		textureMask = Vehicles/null,
-		textureLights = Vehicles/vehicle_Stalliontex_Lights,
+		textureMask = Vehicles/Vehicles_StallionCommandCarBase_Mask,
+		textureLights = Vehicles/vehicle_StallionCommandCarBase_lights,
 		textureDamage1Overlay = Vehicles/null,
 		textureDamage2Overlay = Vehicles/null,
 		textureDamage1Shell = Vehicles/null,

@@ -44,8 +44,8 @@ module Base
 			texture = Vehicles/StallionClosedTopTex,
 		}
 
-		textureMask = Vehicles/null,
-		textureLights = Vehicles/vehicle_Stalliontopenclose_Lights,
+		textureMask = Vehicles/vehicle_StallionMilitaryClosedBackbase_Mask,
+		textureLights = Vehicles/vehicle_StallionMilitaryClosedBackbase_lights,
 		textureDamage1Overlay = Vehicles/null,
 		textureDamage2Overlay = Vehicles/null,
 		textureDamage1Shell = Vehicles/null,
