@@ -1,62 +1,452 @@
 module Tsarcraft
 {
-	sound CassetteProvidenceKeepYourRiflebyYourSide
+	sound Cassette'RoundMidnightMarkMaxwell
 	{
 		category = True Music,
 		master = Ambient,
 		clip
 		{
-			file = media/yourMusic/TCBoombox/Providence - Keep Your Rifle by Your Side.ogg,
+			file = media/yourMusic/TCBoombox/'Round Midnight - Mark Maxwell.ogg,
 			distanceMax = 75,
 		}
 	}
-	sound CassetteProvidenceMisbehavin(1989)
+	sound Cassette13AngelEyesMarkMaxwell
 	{
 		category = True Music,
 		master = Ambient,
 		clip
 		{
-			file = media/yourMusic/TCBoombox/Providence - Misbehavin (1989).ogg,
+			file = media/yourMusic/TCBoombox/13 Angel Eyes - Mark Maxwell.ogg,
 			distanceMax = 75,
 		}
 	}
-	sound CassetteProvidenceNowHesOurFather
+	sound CassetteDayAwayJamesClarke
 	{
 		category = True Music,
 		master = Ambient,
 		clip
 		{
-			file = media/yourMusic/TCBoombox/Providence - Now Hes Our Father.ogg,
+			file = media/yourMusic/TCBoombox/Day Away - James Clarke.ogg,
 			distanceMax = 75,
 		}
 	}
-	sound CassetteProvidenceOhJohn
+	sound CassetteDontExplainChetBaker
 	{
 		category = True Music,
 		master = Ambient,
 		clip
 		{
-			file = media/yourMusic/TCBoombox/Providence - Oh John.ogg,
+			file = media/yourMusic/TCBoombox/Dont Explain - Chet Baker.ogg,
 			distanceMax = 75,
 		}
 	}
-	sound CassetteProvidenceSomeBrokenHeartsNeverMend
+	sound CassetteFunLovingJohnnyPearson
 	{
 		category = True Music,
 		master = Ambient,
 		clip
 		{
-			file = media/yourMusic/TCBoombox/Providence - Some Broken Hearts Never Mend.ogg,
+			file = media/yourMusic/TCBoombox/Fun Loving - Johnny Pearson.ogg,
 			distanceMax = 75,
 		}
 	}
-	sound CassetteProvidenceTherellComeaPayday(LiveatZionsLanding)
+	sound CassetteGoingHomeChrisGunning
 	{
 		category = True Music,
 		master = Ambient,
 		clip
 		{
-			file = media/yourMusic/TCBoombox/Providence - Therell Come a Payday (Live at Zions Landing).ogg,
+			file = media/yourMusic/TCBoombox/Going Home - Chris Gunning.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteHarlemNocturneMarkMaxwell
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Harlem Nocturne - Mark Maxwell.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteInASentimentalMoodMarkMaxwell
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/In A Sentimental Mood - Mark Maxwell.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteIslandOfDreamsChrisGunning
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Island Of Dreams - Chris Gunning.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteLeisureJeremyLubbock
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Leisure - Jeremy Lubbock.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteManhattanTransferSteveGray
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Manhattan Transfer - Steve Gray.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteMoonlightInVermontMarkMaxwell
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Moonlight In Vermont - Mark Maxwell.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteMoonlightSerenadeMarkMaxwell
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Moonlight Serenade - Mark Maxwell.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteMrLuckyKarlJenkins
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Mr. Lucky - Karl Jenkins.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteMyFunnyValentineMarkMaxwell
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/My Funny Valentine - Mark Maxwell.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteNightandDayMarkMaxwell
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Night and Day - Mark Maxwell.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteOvertheHedgerowsJohnnyPearson
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Over the Hedgerows - Johnny Pearson.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassettePictureGalaJohnnyPearson
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Picture Gala - Johnny Pearson.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassettePluckingTheStringsDavidSnell
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Plucking The Strings - David Snell.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassettePrairieFarmDavidSnell
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Prairie Farm - David Snell.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteProvidenceMusicCoolWater
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Providence Music- Cool Water.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteProvidenceMusicHomeontheRange
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Providence Music- Home on the Range.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteProvidenceMusicJingleJangleJingle
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Providence Music- Jingle Jangle Jingle.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteProvidenceMusicKansasCity
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Providence Music- Kansas City.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteProvidenceMusicKeepYourRiflebyYourSide
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Providence Music- Keep Your Rifle by Your Side.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteProvidenceMusicNowHesOurFather
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Providence Music- Now Hes Our Father.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteProvidenceMusicOhJohnTheHopeCountyChoir
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Providence Music- Oh John - The Hope County Choir.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteProvidenceMusicOhWhatABeautifulMorninGordonMacRae
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Providence Music- Oh What A Beautiful Mornin - Gordon MacRae.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteProvidenceMusicOklahomaGordonMacRaeCharlotteGreenwoodShirleyJones
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Providence Music- Oklahoma - Gordon MacRae Charlotte Greenwood Shirley Jones.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteProvidenceMusicPraiseTheLordAndPassTheAmmunitionKayKyserandHisOrchestra
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Providence Music- Praise The Lord And Pass The Ammunition - Kay Kyser and His Orchestra.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteProvidenceMusicSharingTheNightTogetherDrHook
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Providence Music- Sharing The Night Together - Dr. Hook.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteProvidenceMusicSomeBrokenHeartsNeverMend
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Providence Music- Some Broken Hearts Never Mend.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteProvidenceMusicSongWagonRoyRogersDaleEvans
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Providence Music- Song Wagon - Roy Rogers Dale Evans.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteProvidenceMusicTheSagaofAndyBurnett
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Providence Music- The Saga of Andy Burnett.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteProvidenceMusicTheSurreyWithTheFringeOnTop
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Providence Music- The Surrey With The Fringe On Top.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteProvidenceMusicTherellComeaPayday
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Providence Music- Therell Come a Payday.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteProvidenceMusicWhopeeTiYiYo
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Providence Music- Whopee Ti Yi Yo.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteProwlerBohrenderClubofGore
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Prowler - Bohren der Club of Gore.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteRuralGreenJohnnyPearson
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Rural Green - Johnny Pearson.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteStrollingAroundBrianDeeIrvingMarin
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Strolling Around - Brian Dee Irving Marin.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteSublimeCountryJohnnyPearson
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Sublime Country - Johnny Pearson.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteTattileOscarRocchiFrancoGodi
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Tattile - Oscar Rocchi Franco Godi.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteWackerJohnnyPearson
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Wacker - Johnny Pearson.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteWaitin'ForMyTraintoComeInMarkMaxwell
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Waitin' For My Train to Come In - Mark Maxwell.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteWhyDon'tYouDoRightMarkMaxwell
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Why Don't You Do Right - Mark Maxwell.ogg,
 			distanceMax = 75,
 		}
 	}

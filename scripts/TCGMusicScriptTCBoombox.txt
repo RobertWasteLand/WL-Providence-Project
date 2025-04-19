@@ -6,64 +6,454 @@ module Tsarcraft
 	}
 /********************Generated Music Carriers********************/
 
-	item CassetteProvidenceKeepYourRiflebyYourSide
+	item Cassette'RoundMidnightMarkMaxwell
 	{
 		Type			=	Normal,
 		DisplayCategory = Entertainment,
 		Weight			=	0.02,
-		Icon			=	TCTape11,
-		DisplayName		=	Cassette Providence - Keep Your Rifle by Your Side,
-		WorldStaticModel = Tsarcraft.TCTape11,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette 'Round Midnight - Mark Maxwell,
+		WorldStaticModel = Tsarcraft.TCTape4,
 	}
 
-	item CassetteProvidenceMisbehavin(1989)
-	{
-		Type			=	Normal,
-		DisplayCategory = Entertainment,
-		Weight			=	0.02,
-		Icon			=	TCTape3,
-		DisplayName		=	Cassette Providence - Misbehavin (1989),
-		WorldStaticModel = Tsarcraft.TCTape3,
-	}
-
-	item CassetteProvidenceNowHesOurFather
+	item Cassette13AngelEyesMarkMaxwell
 	{
 		Type			=	Normal,
 		DisplayCategory = Entertainment,
 		Weight			=	0.02,
 		Icon			=	TCTape10,
-		DisplayName		=	Cassette Providence - Now Hes Our Father,
+		DisplayName		=	Cassette 13 Angel Eyes - Mark Maxwell,
 		WorldStaticModel = Tsarcraft.TCTape10,
 	}
 
-	item CassetteProvidenceOhJohn
+	item CassetteDayAwayJamesClarke
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette Day Away - James Clarke,
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteDontExplainChetBaker
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Dont Explain - Chet Baker,
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteFunLovingJohnnyPearson
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Fun Loving - Johnny Pearson,
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteGoingHomeChrisGunning
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Going Home - Chris Gunning,
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteHarlemNocturneMarkMaxwell
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Harlem Nocturne - Mark Maxwell,
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteInASentimentalMoodMarkMaxwell
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette In A Sentimental Mood - Mark Maxwell,
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteIslandOfDreamsChrisGunning
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Island Of Dreams - Chris Gunning,
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteLeisureJeremyLubbock
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette Leisure - Jeremy Lubbock,
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteManhattanTransferSteveGray
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Manhattan Transfer - Steve Gray,
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteMoonlightInVermontMarkMaxwell
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Moonlight In Vermont - Mark Maxwell,
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteMoonlightSerenadeMarkMaxwell
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette Moonlight Serenade - Mark Maxwell,
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteMrLuckyKarlJenkins
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette Mr. Lucky - Karl Jenkins,
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteMyFunnyValentineMarkMaxwell
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette My Funny Valentine - Mark Maxwell,
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteNightandDayMarkMaxwell
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette Night and Day - Mark Maxwell,
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteOvertheHedgerowsJohnnyPearson
 	{
 		Type			=	Normal,
 		DisplayCategory = Entertainment,
 		Weight			=	0.02,
 		Icon			=	TCTape8,
-		DisplayName		=	Cassette Providence - Oh John,
+		DisplayName		=	Cassette Over the Hedgerows - Johnny Pearson,
 		WorldStaticModel = Tsarcraft.TCTape8,
 	}
 
-	item CassetteProvidenceSomeBrokenHeartsNeverMend
+	item CassettePictureGalaJohnnyPearson
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette Picture Gala - Johnny Pearson,
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassettePluckingTheStringsDavidSnell
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette Plucking The Strings - David Snell,
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassettePrairieFarmDavidSnell
 	{
 		Type			=	Normal,
 		DisplayCategory = Entertainment,
 		Weight			=	0.02,
 		Icon			=	TCTape8,
-		DisplayName		=	Cassette Providence - Some Broken Hearts Never Mend,
+		DisplayName		=	Cassette Prairie Farm - David Snell,
 		WorldStaticModel = Tsarcraft.TCTape8,
 	}
 
-	item CassetteProvidenceTherellComeaPayday(LiveatZionsLanding)
+	item CassetteProvidenceMusicCoolWater
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Providence Music- Cool Water,
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteProvidenceMusicHomeontheRange
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette Providence Music- Home on the Range,
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteProvidenceMusicJingleJangleJingle
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette Providence Music- Jingle Jangle Jingle,
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteProvidenceMusicKansasCity
 	{
 		Type			=	Normal,
 		DisplayCategory = Entertainment,
 		Weight			=	0.02,
 		Icon			=	TCTape5,
-		DisplayName		=	Cassette Providence - Therell Come a Payday (Live at Zions Landing),
+		DisplayName		=	Cassette Providence Music- Kansas City,
 		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteProvidenceMusicKeepYourRiflebyYourSide
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Providence Music- Keep Your Rifle by Your Side,
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteProvidenceMusicNowHesOurFather
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Providence Music- Now Hes Our Father,
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteProvidenceMusicOhJohnTheHopeCountyChoir
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette Providence Music- Oh John - The Hope County Choir,
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteProvidenceMusicOhWhatABeautifulMorninGordonMacRae
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Providence Music- Oh What A Beautiful Mornin - Gordon MacRae,
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteProvidenceMusicOklahomaGordonMacRaeCharlotteGreenwoodShirleyJones
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Providence Music- Oklahoma - Gordon MacRae Charlotte Greenwood Shirley Jones,
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteProvidenceMusicPraiseTheLordAndPassTheAmmunitionKayKyserandHisOrchestra
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette Providence Music- Praise The Lord And Pass The Ammunition - Kay Kyser and His Orchestra,
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteProvidenceMusicSharingTheNightTogetherDrHook
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette Providence Music- Sharing The Night Together - Dr. Hook,
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteProvidenceMusicSomeBrokenHeartsNeverMend
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Providence Music- Some Broken Hearts Never Mend,
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteProvidenceMusicSongWagonRoyRogersDaleEvans
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Providence Music- Song Wagon - Roy Rogers Dale Evans,
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteProvidenceMusicTheSagaofAndyBurnett
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette Providence Music- The Saga of Andy Burnett,
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteProvidenceMusicTheSurreyWithTheFringeOnTop
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Providence Music- The Surrey With The Fringe On Top,
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteProvidenceMusicTherellComeaPayday
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette Providence Music- Therell Come a Payday,
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteProvidenceMusicWhopeeTiYiYo
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette Providence Music- Whopee Ti Yi Yo,
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteProwlerBohrenderClubofGore
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Prowler - Bohren der Club of Gore,
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteRuralGreenJohnnyPearson
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Rural Green - Johnny Pearson,
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteStrollingAroundBrianDeeIrvingMarin
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Strolling Around - Brian Dee Irving Marin,
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteSublimeCountryJohnnyPearson
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Sublime Country - Johnny Pearson,
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteTattileOscarRocchiFrancoGodi
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Tattile - Oscar Rocchi Franco Godi,
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteWackerJohnnyPearson
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Wacker - Johnny Pearson,
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteWaitin'ForMyTraintoComeInMarkMaxwell
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette Waitin' For My Train to Come In - Mark Maxwell,
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteWhyDon'tYouDoRightMarkMaxwell
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Why Don't You Do Right - Mark Maxwell,
+		WorldStaticModel = Tsarcraft.TCTape6,
 	}
 
 }
