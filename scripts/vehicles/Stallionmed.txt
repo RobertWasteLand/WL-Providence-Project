@@ -7,21 +7,21 @@ module Base
         invertX = FALSE,
         scale = 1,
     }
-	model Vehicle_Stallionwheelleft
+	model Vehicle_Stallion_closedtop_wheelleft
 	{
 		mesh = vehicles/stallionfrontwheel,
-		texture = vehicles/whitewallwheel,
+		texture = vehicles/stallionregwheel,
 		shader = vehiclewheel,
 	}
-	model Vehicle_Stallionbackwheelleft
+	model Vehicle_Stallion_closedtop_backwheelleft
 	{
 		mesh = vehicles/stallionbackwheel,
-		texture = vehicles/whitewallwheel,
+		texture = vehicles/stallionregwheel,
 	}
-	model Vehicle_Stallionbackwheelright
+	model Vehicle_Stallion_closedtop_backwheelright
 	{
 		mesh = vehicles/stallionbackwheel,
-		texture = vehicles/whitewallwheel,
+		texture = vehicles/stallionregwheel,
 	}
 	vehicle StallionUtilityMedical
 	{
@@ -51,7 +51,7 @@ module Base
 		textureDamage1Shell = Vehicles/null,
 		textureDamage2Shell = Vehicles/null,
 		textureRust = Vehicles/null,
-		
+
 		lightbar
 		{
 			soundSiren = VehicleSiren,
@@ -72,7 +72,7 @@ module Base
 		centerOfMassOffset = -0.0135 1.0405 0.0000,
 		shadowExtents = 1.3689 3.2634,
 		shadowOffset = -0.0100 0.0000,
-		engineForce = 3050,
+		engineForce = 3500,
 		engineLoudness = 40,
 		engineQuality = 80,
 		maxSpeed = 150f,
@@ -100,7 +100,7 @@ module Base
 		wheel FrontLeft
 		{
 			front = true,
-			offset = -0.0135 -0.3919 0.9054,
+			offset = -0.0135 -0.3919 0.9595,
 			radius = 0.30f,
 			width = 0.20f,
 		}
@@ -108,7 +108,7 @@ module Base
 		wheel RearLeft
 		{
 			front = false,
-			offset = 0.6892 -0.4730 -1.0405,
+			offset = 0.7297 -0.4730 -1.0676,
 			radius = 0.30f,
 			width = 0.20f,
 		}
@@ -116,7 +116,7 @@ module Base
 		wheel RearRight
 		{
 			front = false,
-			offset = -0.7297 -0.4730 -1.0405,
+			offset = -0.7297 -0.4730 -1.0676,
 			radius = 0.30f,
 			width = 0.20f,
 		}
@@ -158,15 +158,10 @@ module Base
 				area = SeatFrontRight,
 			}
 		}
-		
+
 		area Engine
 		{
 			xywh = 0.0000 2.2838 1.9459 1.1622,
-		}
-
-		area TruckBed
-		{
-			xywh = 0.0000 -2.2027 1.9459 1.1081,
 		}
 
 		area SeatFrontLeft
@@ -197,14 +192,6 @@ module Base
 		area TireRearRight
 		{
 			xywh = -1.1081 -1.0811 0.5946 0.5946,
-		}
-
-		template = TrunkDoor,
-		template = Trunk/part/TruckBed,
-
-		part TruckBed
-		{
-			itemType = Base.SmallTrunk,
 		}
 
 		template = Seat/part/SeatFrontLeft,
@@ -245,15 +232,6 @@ module Base
 		template = Muffler,
 		template = EngineDoor,
 
-		part Heater
-		{
-			category = engine,
-
-			lua
-			{
-				update = Vehicles.Update.Heater,
-			}
-		}
 
 		part PassengerCompartment
 		{
@@ -273,7 +251,7 @@ module Base
 		{
 			model InflatedTirePlusWheel
 			{
-				file = Vehicle_Stallionwheelleft,
+				file = Vehicle_Stallion_closedtop_wheelleft,
 			}
 		}
 
@@ -298,7 +276,7 @@ module Base
 		{
 			model InflatedTirePlusWheel
 			{
-				file = Vehicle_Stallionbackwheelleft,
+				file = Vehicle_Stallion_closedtop_backwheelleft,
 			}
 		}
 
@@ -306,7 +284,7 @@ module Base
 		{
 			model InflatedTirePlusWheel
 			{
-				file = Vehicle_Stallionbackwheelleft,
+				file = Vehicle_Stallion_closedtop_backwheelleft,
 			}
 		}
 

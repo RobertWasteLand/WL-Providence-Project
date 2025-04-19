@@ -1,29 +1,29 @@
 module Base
 {
-	model StallionUtilitypolicebase
+	model StallionCommandCarBase
     {
-        mesh = vehicles/Vehicle_StallionUtilityMed_body,  
+        mesh = vehicles/Vehicle_Stallion_body,  
         shader = vehicle,
         invertX = FALSE,
         scale = 1,
     }
-	model Vehicle_Stallion_closedtop_wheelleft
+	model Vehicle_Stallionwheelleft
 	{
 		mesh = vehicles/stallionfrontwheel,
-		texture = vehicles/stallionregwheel,
+		texture = vehicles/whitewallwheel,
 		shader = vehiclewheel,
 	}
-	model Vehicle_Stallion_closedtop_backwheelleft
+	model Vehicle_Stallionbackwheelleft
 	{
 		mesh = vehicles/stallionbackwheel,
-		texture = vehicles/stallionregwheel,
+		texture = vehicles/whitewallwheel,
 	}
-	model Vehicle_Stallion_closedtop_backwheelright
+	model Vehicle_Stallionbackwheelright
 	{
 		mesh = vehicles/stallionbackwheel,
-		texture = vehicles/stallionregwheel,
+		texture = vehicles/whitewallwheel,
 	}
-	vehicle StallionUtilityPolice
+	vehicle Stallion
 	{
 		mechanicType = 1,
 		offRoadEfficiency = 0.7,
@@ -32,7 +32,7 @@ module Base
 
 		model
 		{
-			file = StallionUtilitypolicebase,
+			file = StallionCommandCarBase,
 			scale = 0.7400,
 			offset = 0.0000 0.5000 -0.0135,
 		}
@@ -41,7 +41,7 @@ module Base
 
 		skin
 		{
-			texture = Vehicles/vehicle_Stallionpoltex,
+			texture = Vehicles/vehicle_Stalliontex,
 		}
 
 		textureMask = Vehicles/null,
@@ -51,11 +51,6 @@ module Base
 		textureDamage1Shell = Vehicles/null,
 		textureDamage2Shell = Vehicles/null,
 		textureRust = Vehicles/null,
-
-		lightbar
-		{
-			soundSiren = VehicleSiren,
-		}
 
 		sound
 		{
@@ -67,15 +62,15 @@ module Base
 		}
 
 		extents = 1.7297 1.7568 3.2432,
-		mass = 600,
+		mass = 700,
 		physicsChassisShape = 1.7297 1.8378 3.2703,
 		centerOfMassOffset = -0.0135 1.0405 0.0000,
 		shadowExtents = 1.3689 3.2634,
 		shadowOffset = -0.0100 0.0000,
-		engineForce = 4050,
+		engineForce = 3050,
 		engineLoudness = 40,
 		engineQuality = 80,
-		maxSpeed = 250f,
+		maxSpeed = 150f,
 		gearRatioCount = 5,
 		gearRatioR = 3.5,
 		gearRatio1 = 5.21,
@@ -100,7 +95,7 @@ module Base
 		wheel FrontLeft
 		{
 			front = true,
-			offset = -0.0135 -0.3919 0.9459,
+			offset = -0.0135 -0.3919 0.9054,
 			radius = 0.30f,
 			width = 0.20f,
 		}
@@ -108,7 +103,7 @@ module Base
 		wheel RearLeft
 		{
 			front = false,
-			offset = 0.7297 -0.4730 -1.0676,
+			offset = 0.6892 -0.4730 -1.0405,
 			radius = 0.30f,
 			width = 0.20f,
 		}
@@ -116,12 +111,12 @@ module Base
 		wheel RearRight
 		{
 			front = false,
-			offset = -0.7297 -0.4730 -1.0676,
+			offset = -0.7297 -0.4730 -1.0405,
 			radius = 0.30f,
 			width = 0.20f,
 		}
 
-		template = PassengerSeat2,
+		template = PassengerSeat4,
 
 		passenger FrontLeft
 		{
@@ -159,11 +154,40 @@ module Base
 			}
 		}
 
+		passenger RearLeft
+		{
+			showPassenger = true,
+
+			position inside
+			{
+				offset = 0.4189 0.2568 -1.2568,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+			}
+		}
+
+		passenger RearRight
+		{
+			showPassenger = true,
+
+			position inside
+			{
+				offset = -0.4189 0.2568 -1.2568,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+			}
+		}
+
 		area Engine
 		{
 			xywh = 0.0000 2.2838 1.9459 1.1622,
 		}
-
 
 		area SeatFrontLeft
 		{
@@ -194,7 +218,6 @@ module Base
 		{
 			xywh = -1.1081 -1.0811 0.5946 0.5946,
 		}
-
 
 		template = Seat/part/SeatFrontLeft,
 		template = Seat/part/SeatFrontRight,
@@ -253,7 +276,7 @@ module Base
 		{
 			model InflatedTirePlusWheel
 			{
-				file = Vehicle_Stallion_closedtop_wheelleft,
+				file = Vehicle_Stallionwheelleft,
 			}
 		}
 
@@ -278,7 +301,7 @@ module Base
 		{
 			model InflatedTirePlusWheel
 			{
-				file = Vehicle_Stallion_closedtop_backwheelleft,
+				file = Vehicle_Stallionbackwheelleft,
 			}
 		}
 
@@ -286,7 +309,7 @@ module Base
 		{
 			model InflatedTirePlusWheel
 			{
-				file = Vehicle_Stallion_closedtop_backwheelleft,
+				file = Vehicle_Stallionbackwheelleft,
 			}
 		}
 
@@ -318,6 +341,12 @@ module Base
 			}
 		}
 
+		attachment trailer
+		{
+			offset = 0.0000 -0.2703 -1.7432,
+			rotate = 0.0000 0.0000 0.0000,
+			zoffset = -1.0000,
+		}
 		template = Radio,
 		template = Headlight,
 	}

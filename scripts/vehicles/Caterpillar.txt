@@ -1,29 +1,35 @@
 module Base
 {
-	model StallionUtilitypolicebase
+	model Caterpillarbase
     {
-        mesh = vehicles/Vehicle_StallionUtilityMed_body,  
+        mesh = vehicles/Vehicle_Caterpillar_body,  
         shader = vehicle,
         invertX = FALSE,
         scale = 1,
     }
-	model Vehicle_Stallion_closedtop_wheelleft
+	model Vehicle_Caterpillar_wheelleft
 	{
 		mesh = vehicles/stallionfrontwheel,
 		texture = vehicles/stallionregwheel,
 		shader = vehiclewheel,
 	}
-	model Vehicle_Stallion_closedtop_backwheelleft
+	model Vehicle_Caterpillar_wheelright
 	{
-		mesh = vehicles/stallionbackwheel,
+		mesh = vehicles/stallionfrontwheel,
+		texture = vehicles/stallionregwheel,
+		shader = vehiclewheel,
+	}
+	model Vehicle_Caterpillar_backwheelleft
+	{
+		mesh = vehicles/stallionfrontwheel,
 		texture = vehicles/stallionregwheel,
 	}
-	model Vehicle_Stallion_closedtop_backwheelright
+	model Vehicle_Caterpillar_backwheelright
 	{
-		mesh = vehicles/stallionbackwheel,
+		mesh = vehicles/stallionfrontwheel,
 		texture = vehicles/stallionregwheel,
 	}
-	vehicle StallionUtilityPolice
+	vehicle Caterpillarbase
 	{
 		mechanicType = 1,
 		offRoadEfficiency = 0.7,
@@ -32,30 +38,25 @@ module Base
 
 		model
 		{
-			file = StallionUtilitypolicebase,
+			file = Caterpillarbase,
 			scale = 0.7400,
-			offset = 0.0000 0.5000 -0.0135,
+			offset = 0.0000 0.3649 -0.2838,
 		}
 
 		spawnOffsetY = 0.12999995,
 
 		skin
 		{
-			texture = Vehicles/vehicle_Stallionpoltex,
+			texture = Vehicles/CaterpillarTex,
 		}
 
 		textureMask = Vehicles/null,
-		textureLights = Vehicles/vehicle_Stalliontex_Lights,
+		textureLights = Vehicles/vehicle_Caterpillar_Lights,
 		textureDamage1Overlay = Vehicles/null,
 		textureDamage2Overlay = Vehicles/null,
 		textureDamage1Shell = Vehicles/null,
 		textureDamage2Shell = Vehicles/null,
 		textureRust = Vehicles/null,
-
-		lightbar
-		{
-			soundSiren = VehicleSiren,
-		}
 
 		sound
 		{
@@ -66,49 +67,51 @@ module Base
 			ignitionFail = VehicleIgnitionFailSmallCar,
 		}
 
-		extents = 1.7297 1.7568 3.2432,
-		mass = 600,
-		physicsChassisShape = 1.7297 1.8378 3.2703,
-		centerOfMassOffset = -0.0135 1.0405 0.0000,
-		shadowExtents = 1.3689 3.2634,
-		shadowOffset = -0.0100 0.0000,
-		engineForce = 4050,
-		engineLoudness = 40,
-		engineQuality = 80,
-		maxSpeed = 250f,
-		gearRatioCount = 5,
-		gearRatioR = 3.5,
-		gearRatio1 = 5.21,
-		gearRatio2 = 3.70,
-		gearRatio3 = 2.65,
-		gearRatio4 = 2.05,
-		gearRatio5 = 1.45,
-		stoppingMovementForce = 3.0f,
-		rollInfluence = 1.2f,
-		steeringIncrement = 0.02,
-		steeringClamp = 0.2,
-		suspensionStiffness = 50,
-		suspensionCompression = 4.1,
-		suspensionDamping = 3.4,
-		maxSuspensionTravelCm = 20,
-		suspensionRestLength = 0.3f,
-		wheelFriction = 1.8f,
+		extents = 2.7297 2.1622 4.3784,
+		physicsChassisShape = 2.8919 2.1351 4.3514,
+		mass = 800,
+		centerOfMassOffset = 0.0000 1.0946 0.0811,
+		shadowExtents = 2.7795 4.1204,
+		shadowOffset = 0.0000 0.0000,
+		engineForce = 4000,
+		maxSpeed = 90f,
+		engineLoudness = 80,
+		engineQuality = 70,
+		brakingForce = 90,
+		stoppingMovementForce = 4.0f,
+		rollInfluence = 1.0f,
+		steeringIncrement = 0.04,
+		steeringClamp = 0.3,
+		suspensionStiffness = 40,
+		suspensionCompression = 3.83,
+		suspensionDamping = 2.88,
+		maxSuspensionTravelCm = 10,
+		suspensionRestLength = 0.20f,
+		wheelFriction = 1.4f,
 		frontEndHealth = 150,
 		rearEndHealth = 150,
-		seats = 4,
+		seats = 2,
 
 		wheel FrontLeft
 		{
 			front = true,
-			offset = -0.0135 -0.3919 0.9459,
+			offset = 0.9459 -0.5405 1.1081,
 			radius = 0.30f,
 			width = 0.20f,
+		}
+
+		wheel FrontRight
+		{
+			front = true,
+			offset = -0.9459 -0.5405 1.1081,
+			radius = 0.15f,
+			width = 0.2f,
 		}
 
 		wheel RearLeft
 		{
 			front = false,
-			offset = 0.7297 -0.4730 -1.0676,
+			offset = 0.9459 -0.5405 -0.7838,
 			radius = 0.30f,
 			width = 0.20f,
 		}
@@ -116,7 +119,7 @@ module Base
 		wheel RearRight
 		{
 			front = false,
-			offset = -0.7297 -0.4730 -1.0676,
+			offset = -0.9459 -0.5405 -0.7838,
 			radius = 0.30f,
 			width = 0.20f,
 		}
@@ -125,11 +128,11 @@ module Base
 
 		passenger FrontLeft
 		{
-			showPassenger = true,
+			showPassenger = false,
 
 			position inside
 			{
-				offset = 0.3919 0.2703 -0.3784,
+				offset = 0.3784 0.2703 0.2703,
 				rotate = 0.0000 0.0000 0.0000,
 			}
 
@@ -143,11 +146,11 @@ module Base
 
 		passenger FrontRight
 		{
-			showPassenger = true,
+			showPassenger = false,
 
 			position inside
 			{
-				offset = -0.4324 0.2703 -0.3784,
+				offset = -0.4324 0.2703 0.2703,
 				rotate = 0.0000 0.0000 0.0000,
 			}
 
@@ -161,90 +164,52 @@ module Base
 
 		area Engine
 		{
-			xywh = 0.0000 2.2838 1.9459 1.1622,
+			xywh = 1.8649 0.0270 1.0270 1.1622,
 		}
-
 
 		area SeatFrontLeft
 		{
-			xywh = 1.2703 0.0135 1.0811 1.0541,
+			xywh = 0.6892 -2.5946 1.0811 1.0541,
 		}
 
 		area SeatFrontRight
 		{
-			xywh = -1.2703 0.0135 1.0811 1.0541,
+			xywh = -0.6892 -2.5946 1.0811 1.0541,
 		}
 
 		area GasTank
 		{
-			xywh = -1.0405 1.0405 0.5946 0.5946,
+			xywh = -1.6622 0.0000 0.5946 0.5946,
 		}
 
 		area TireFrontLeft
 		{
-			xywh = 1.0135 1.1081 0.5946 0.5946,
+			xywh = 1.6486 1.1081 0.5946 0.5946,
+		}
+
+		area TireFrontRight
+		{
+			xywh = -1.6486 1.1351 0.5946 0.5946,
 		}
 
 		area TireRearLeft
 		{
-			xywh = 1.1081 -1.0811 0.5946 0.5946,
+			xywh = 1.6486 -1.0811 0.5946 0.5946,
 		}
 
 		area TireRearRight
 		{
-			xywh = -1.1081 -1.0811 0.5946 0.5946,
+			xywh = -1.6486 -1.0811 0.5946 0.5946,
 		}
-
 
 		template = Seat/part/SeatFrontLeft,
 		template = Seat/part/SeatFrontRight,
-		template = Seat/part/SeatRearLeft,
-		template = Seat/part/SeatRearRight,
-
-		part SeatRearLeft
-		{
-			table install
-			{
-				area = SeatFrontLeft,
-			}
-
-			table uninstall
-			{
-				area = SeatFrontLeft,
-			}
-		}
-
-		part SeatRearRight
-		{
-			table install
-			{
-				area = SeatFrontRight,
-			}
-
-			table uninstall
-			{
-				area = SeatFrontRight,
-			}
-		}
-
 		template = GloveBox,
 		template = GasTank,
 		template = Battery,
 		template = Engine,
 		template = Muffler,
 		template = EngineDoor,
-
-
-		part PassengerCompartment
-		{
-			category = nodisplay,
-
-			lua
-			{
-				update = Vehicles.Update.PassengerCompartment,
-			}
-		}
-
 		template = Door/part/DoorFrontLeft,
 		template = Door/part/DoorFrontRight,
 		template = Tire,
@@ -253,24 +218,15 @@ module Base
 		{
 			model InflatedTirePlusWheel
 			{
-				file = Vehicle_Stallion_closedtop_wheelleft,
+				file = Vehicle_Caterpillar_wheelleft,
 			}
 		}
 
 		part TireFrontRight
 		{
-			category = nodisplay,
-			itemType =,
-
-			lua
-			{
-				create =,
-				update =,
-			}
-
 			model InflatedTirePlusWheel
 			{
-				file =,
+				file = Vehicle_Caterpillar_wheelright,
 			}
 		}
 
@@ -278,7 +234,7 @@ module Base
 		{
 			model InflatedTirePlusWheel
 			{
-				file = Vehicle_Stallion_closedtop_backwheelleft,
+				file = Vehicle_Caterpillar_backwheelleft,
 			}
 		}
 
@@ -286,7 +242,7 @@ module Base
 		{
 			model InflatedTirePlusWheel
 			{
-				file = Vehicle_Stallion_closedtop_backwheelleft,
+				file = Vehicle_Caterpillar_backwheelleft,
 			}
 		}
 
@@ -318,7 +274,6 @@ module Base
 			}
 		}
 
-		template = Radio,
 		template = Headlight,
 	}
 }

@@ -1,29 +1,29 @@
 module Base
 {
-	model StallionBase
+	model StallionMilitaryClosedBackbase
     {
-        mesh = vehicles/Vehicle_Stallion_body,  
+        mesh = vehicles/Vehicle_Stallion_Closed_body,  
         shader = vehicle,
         invertX = FALSE,
         scale = 1,
     }
-	model Vehicle_Stallionwheelleft
+	model Vehicle_Stallion_closedtop_wheelleft
 	{
 		mesh = vehicles/stallionfrontwheel,
-		texture = vehicles/whitewallwheel,
+		texture = vehicles/stallionregwheel,
 		shader = vehiclewheel,
 	}
-	model Vehicle_Stallionbackwheelleft
+	model Vehicle_Stallion_closedtop_backwheelleft
 	{
 		mesh = vehicles/stallionbackwheel,
-		texture = vehicles/whitewallwheel,
+		texture = vehicles/stallionregwheel,
 	}
-	model Vehicle_Stallionbackwheelright
+	model Vehicle_Stallion_closedtop_backwheelright
 	{
 		mesh = vehicles/stallionbackwheel,
-		texture = vehicles/whitewallwheel,
+		texture = vehicles/stallionregwheel,
 	}
-	vehicle Stallion
+	vehicle StallionMilitaryClosedBack
 	{
 		mechanicType = 1,
 		offRoadEfficiency = 0.7,
@@ -32,7 +32,7 @@ module Base
 
 		model
 		{
-			file = Stallionbase,
+			file = StallionMilitaryClosedBackbase,
 			scale = 0.7400,
 			offset = 0.0000 0.5000 -0.0135,
 		}
@@ -41,11 +41,11 @@ module Base
 
 		skin
 		{
-			texture = Vehicles/vehicle_Stalliontex,
+			texture = Vehicles/StallionClosedTopTex,
 		}
 
 		textureMask = Vehicles/null,
-		textureLights = Vehicles/vehicle_Stalliontex_Lights,
+		textureLights = Vehicles/vehicle_Stalliontopenclose_Lights,
 		textureDamage1Overlay = Vehicles/null,
 		textureDamage2Overlay = Vehicles/null,
 		textureDamage1Shell = Vehicles/null,
@@ -120,7 +120,7 @@ module Base
 
 		passenger FrontLeft
 		{
-			showPassenger = true,
+			showPassenger = false,
 
 			position inside
 			{
@@ -138,7 +138,7 @@ module Base
 
 		passenger FrontRight
 		{
-			showPassenger = true,
+			showPassenger = false,
 
 			position inside
 			{
@@ -156,42 +156,39 @@ module Base
 
 		passenger RearLeft
 		{
-			showPassenger = true,
-
 			position inside
 			{
-				offset = 0.4189 0.2568 -1.2568,
+				offset = 0.2838 0.1486 -1.2568,
 				rotate = 0.0000 0.0000 0.0000,
 			}
 
 			position outside
 			{
+				offset = 0.6486 -0.4730 -0.2568,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatRearLeft,
 			}
 		}
 
 		passenger RearRight
 		{
-			showPassenger = true,
-
 			position inside
 			{
-				offset = -0.4189 0.2568 -1.2568,
+				offset = -0.2838 0.1486 -1.2568,
 				rotate = 0.0000 0.0000 0.0000,
 			}
 
 			position outside
 			{
+				offset = -0.6486 -0.4730 -0.2568,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatRearRight,
 			}
 		}
 
 		area Engine
 		{
 			xywh = 0.0000 2.2838 1.9459 1.1622,
-		}
-
-		area TruckBed
-		{
-			xywh = 0.0000 -2.2027 1.9459 1.1081,
 		}
 
 		area SeatFrontLeft
@@ -202,6 +199,16 @@ module Base
 		area SeatFrontRight
 		{
 			xywh = -1.2703 0.0135 1.0811 1.0541,
+		}
+
+		area SeatRearLeft
+		{
+			xywh = 0.4324 -2.0676 0.8649 0.8919,
+		}
+
+		area SeatRearRight
+		{
+			xywh = -0.4324 -2.0676 0.8649 0.8919,
 		}
 
 		area GasTank
@@ -222,14 +229,6 @@ module Base
 		area TireRearRight
 		{
 			xywh = -1.1081 -1.0811 0.5946 0.5946,
-		}
-
-		template = TrunkDoor,
-		template = Trunk/part/TruckBed,
-
-		part TruckBed
-		{
-			itemType = Base.SmallTrunk,
 		}
 
 		template = Seat/part/SeatFrontLeft,
@@ -290,15 +289,20 @@ module Base
 			}
 		}
 
+		template = Windshield/part/Windshield,
+		template = Window/part/WindowFrontLeft,
+		template = Window/part/WindowFrontRight,
 		template = Door/part/DoorFrontLeft,
 		template = Door/part/DoorFrontRight,
+		template = Door/part/DoorRearLeft,
+		template = Door/part/DoorRearRight,
 		template = Tire,
 
 		part TireFrontLeft
 		{
 			model InflatedTirePlusWheel
 			{
-				file = Vehicle_Stallionwheelleft,
+				file = Vehicle_Stallion_closedtop_wheelleft,
 			}
 		}
 
@@ -323,7 +327,7 @@ module Base
 		{
 			model InflatedTirePlusWheel
 			{
-				file = Vehicle_Stallionbackwheelleft,
+				file = Vehicle_Stallion_closedtop_backwheelleft,
 			}
 		}
 
@@ -331,7 +335,7 @@ module Base
 		{
 			model InflatedTirePlusWheel
 			{
-				file = Vehicle_Stallionbackwheelleft,
+				file = Vehicle_Stallion_closedtop_backwheelleft,
 			}
 		}
 
@@ -362,6 +366,9 @@ module Base
 				update =,
 			}
 		}
+
+		template = Radio,
+		template = Headlight,
 
 		attachment trailer
 		{
