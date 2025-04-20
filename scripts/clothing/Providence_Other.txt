@@ -5,58 +5,58 @@ module WLRob
         Base
     }
 	
-	item glasses_orange_aviators
+	item Providence_glasses_commander_aviators
 	{
 	    DisplayCategory = Accessory,
 		Type = Clothing,
 		DisplayName = Providence Commander Aviators,
-		ClothingItem = glasses_orange_aviators,
+		ClothingItem = Providence_glasses_commander_aviators,
 		BodyLocation = Eyes,
 		Icon = glasses_orange_aviatorsicons,
 		Weight = 0.1,
 		Cosmetic = TRUE,
 		ChanceToFall = 50,
 	}
-	item glasses_scout_aviators
+	item Providence_scout_aviators
 	{
 	    DisplayCategory = Accessory,
 		Type = Clothing,
 		DisplayName = Providence Scout Aviators,
-		ClothingItem = glasses_scout_aviators,
+		ClothingItem = Providence_scout_aviators,
 		BodyLocation = Eyes,
 		Icon = glasses_scout_aviatorsicons,
 		Weight = 0.1,
 		Cosmetic = TRUE,
 		ChanceToFall = 50,
 	}
-    item cult_ribbon
+    item Providence_cult_ribbon
 	{
 	    DisplayCategory = Clothing,
 		Type = Clothing,
 		DisplayName = Providence Ribbon,
-		ClothingItem = cult_ribbon,
+		ClothingItem = Providence_cult_ribbon,
 		BodyLocation = TorsoExtra,
 		Icon = cult_ribbionicon,
 		FabricType = Cotton,
 		WorldStaticModel = CultRibbionGround,
 	}
-    item enforcer_walki
+    item Providence_enforcer_chest_walki
 	{
 	    DisplayCategory = Clothing,
 		Type = Clothing,
 		DisplayName = Providence Enforcer Chest-Walki,
-		ClothingItem = enforcer_walki,
+		ClothingItem = Providence_enforcer_chest_walki,
 		BodyLocation = TorsoExtra,
 		Icon = CHANGELATER-GEEBUS,
 		FabricType = Cotton,
 		WorldStaticModel = CHANGELATER-GEEBUS,
 	}
-    item cult_grunt_jacket
+    item Providence_grunt_jacket
     {
         DisplayCategory = Clothing,
         Type = Clothing,
         DisplayName = Providence Grunt Jacket,
-        ClothingItem = cult_grunt_jacket,
+        ClothingItem = Providence_grunt_jacket,
         BodyLocation = Jacket,
         BloodLocation = Jacket,
         Icon = cultgruntjacketicon,
@@ -70,12 +70,12 @@ module WLRob
         Weight = 2,
         WorldStaticModel = cultgruntjacketGround,
     }
-    item cult_grunt_jacket_medical
+    item Providence_grunt_jacket_medical
     {
         DisplayCategory = Clothing,
         Type = Clothing,
         DisplayName = Providence Medical Grunt Jacket,
-        ClothingItem = cult_grunt_jacket_medical,
+        ClothingItem = Providence_grunt_jacket_medical,
         BodyLocation = Jacket,
         BloodLocation = Jacket,
         Icon = cultgruntjacketicon,
@@ -89,12 +89,12 @@ module WLRob
         Weight = 2,
         WorldStaticModel = cultgruntjacketGround,
     }
-    item enforcer_jacket
+    item Providence_enforcer_jacket
     {
         DisplayCategory = Clothing,
         Type = Clothing,
         DisplayName = Providence Enforcer Jacket,
-        ClothingItem = enforcer_jacket,
+        ClothingItem = Providence_enforcer_jacket,
         BodyLocation = Jacket,
         BloodLocation = Jacket,
         Icon = Enforcerjacketicon,
@@ -108,12 +108,12 @@ module WLRob
         Weight = 2,
         WorldStaticModel = enforcerjacketground,
     }
-    item cult_grunt_jacket_gren
+    item Providence_grunt_jacket_grenadier
     {
         DisplayCategory = Clothing,
         Type = Clothing,
         DisplayName = Providence Grenadier Grunt Jacket,
-        ClothingItem = cult_grunt_jacket_gren,
+        ClothingItem = Providence_grunt_jacket_grenadier,
         BodyLocation = Jacket,
         BloodLocation = Jacket,
         Icon = cultgruntjacketgrenicon,
@@ -127,12 +127,12 @@ module WLRob
         Weight = 2,
         WorldStaticModel = cultgruntjacketGround,
     }
-    item cult_grunt_trousers
+    item Providence_grunt_trousers
     {
         DisplayCategory = Clothing,
         Type = Clothing,
         DisplayName = Providence Grunt Trousers,
-        ClothingItem = cult_grunt_trousers,
+        ClothingItem = Providence_grunt_trousers,
         BodyLocation = Pants,
         Icon = cultgrunttrousersicon,
         BloodLocation = Trousers,
@@ -142,11 +142,11 @@ module WLRob
         FabricType = Cotton,
         WorldStaticModel = cultgrunttrousersGround,
     }
-    item cult_armour
+    item Providence_armour
          {
         Type = Clothing,
         DisplayName = Providence Scrap Armour,
-        ClothingItem = cult_armour,
+        ClothingItem = Providence_armour,
         BodyLocation = TorsoExtra,
         Icon = cultarmour_icon,
         BloodLocation = ShirtNoSleeves,
@@ -160,11 +160,11 @@ module WLRob
         Weight = 2.5,
         WorldStaticModel = cultarmourtexGround,
     }
-    item cult_armour_med
+    item Providence_armour_medical
          {
         Type = Clothing,
         DisplayName = Providence Medical Scrap Armour,
-        ClothingItem = cult_armour_med,
+        ClothingItem = Providence_armour_medical,
         BodyLocation = TorsoExtra,
         Icon = cultarmour_icon,
         BloodLocation = ShirtNoSleeves,
@@ -178,7 +178,7 @@ module WLRob
         Weight = 2.5,
         WorldStaticModel = cultarmourtexGround,
     }
-	    item cult_armour_gren
+	    item Providence_armour_grenadier
          {
         Type = Clothing,
         DisplayName = Providence Grenadier Scrap Armour,
@@ -196,11 +196,11 @@ module WLRob
         Weight = 2.5,
         WorldStaticModel = cultarmourtexGround,
         }
-    item cult_armour_art
+    item Providence_armour_artillery
          {
         Type = Clothing,
         DisplayName = Providence Artillery Scrap Armour,
-        ClothingItem = cult_armour_art,
+        ClothingItem = Providence_armour_artillery,
         BodyLocation = TorsoExtra,
         Icon = cultarmourart_icon,
         BloodLocation = ShirtNoSleeves,
@@ -214,12 +214,12 @@ module WLRob
         Weight = 2.5,
         WorldStaticModel = cultarmourtexGround,
         }
-    item BlackProvidenceJrCommandJacket
+    item Providence_jr_commander_jacket
     {
         DisplayCategory = Clothing,
         Type = Clothing,
         DisplayName = Providence 3-Star General Jacket,
-        ClothingItem = BlackProvidenceJrCommandJacket,
+        ClothingItem = Providence_jr_commander_jacket,
         BodyLocation = Jacket,
         Icon = BlackProvidenceJrCommanderJacketicon,
         BloodLocation = LongJacket,
@@ -233,12 +233,12 @@ module WLRob
         WaterResistance = 0.55,
         WorldStaticModel = JacketCoat_Ground,
     }
-    item WhiteProvidenceCommanderCoat
+    item Providence_commander_coat
     {
         DisplayCategory = Clothing,
         Type = Clothing,
         DisplayName = Providence 5-Star General Coat,
-        ClothingItem = WhiteProvidenceCommanderCoat,
+        ClothingItem = Providence_commander_coat,
         BodyLocation = Back,
         Icon = WhiteProvidenceCommanderCoatIcon,
         BloodLocation = LongJacket,
@@ -252,12 +252,12 @@ module WLRob
         WaterResistance = 0.55,
         WorldStaticModel = ProvidenceCommanderCoat,
     }
-    item BlackProvidenceCommanderCoat
+    item Providence_jr_commander_coat
     {
         DisplayCategory = Clothing,
         Type = Clothing,
         DisplayName = Providence 3-Star General Coat,
-        ClothingItem = BlackProvidenceCommanderCoat,
+        ClothingItem = Providence_jr_commander_coat,
         BodyLocation = Back,
         Icon = BlackProvidenceCommanderCoatIcon,
         BloodLocation = LongJacket,
@@ -271,12 +271,12 @@ module WLRob
         WaterResistance = 0.55,
         WorldStaticModel = ProvidenceCommanderCoat,
     }
-    item ProvidenceCommanderCape
+    item Providence_commander_cape
     {
         DisplayCategory = Clothing,
         Type = Clothing,
         DisplayName = Providence 5-Star General Cape,
-        ClothingItem = ProvidenceCommanderCape,
+        ClothingItem = Providence_commander_cape,
         BodyLocation = Back,
         Icon = ProvidenceCommanderCapeIcon,
         BloodLocation = LongJacket,
@@ -290,12 +290,12 @@ module WLRob
         WaterResistance = 0.55,
         WorldStaticModel = ProvidenceCommanderCapeIcon,
     }
-    item WhiteProvidenceCommandJacket
+    item Providence_commander_jacket
     {
         DisplayCategory = Clothing,
         Type = Clothing,
         DisplayName = Providence 5-Star General Jacket,
-        ClothingItem = WhiteProvidenceCommandJacket,
+        ClothingItem = Providence_commander_jacket,
         BodyLocation = Jacket,
         Icon = WhiteProvidenceCommandJacketicon,
         BloodLocation = LongJacket,
@@ -309,12 +309,12 @@ module WLRob
         WaterResistance = 0.55,
         WorldStaticModel = JacketCoat_Ground,
     }
-    item cult_grunt_jacket_art
+    item Providence_grunt_jacket_artillery
     {
         DisplayCategory = Clothing,
         Type = Clothing,
         DisplayName = Providence Artillery Grunt Jacket,
-        ClothingItem = cult_grunt_jacket_art,
+        ClothingItem = Providence_grunt_jacket_artillery,
         BodyLocation = Jacket,
         BloodLocation = Jacket,
         Icon = cultgruntjacketicon,
@@ -328,12 +328,12 @@ module WLRob
         Weight = 2,
         WorldStaticModel = greencultgruntjacketGround,
     }
-    item cult_grunt_trousers_art
+    item Providence_grunt_trousers_artillery
     {
         DisplayCategory = Clothing,
         Type = Clothing,
         DisplayName = Providence White Grunt Trousers,
-        ClothingItem = cult_grunt_trousers_art,
+        ClothingItem = Providence_grunt_trousers_artillery,
         BodyLocation = Pants,
         Icon = cultgrunttrousersicon,
         BloodLocation = Trousers,
@@ -343,12 +343,12 @@ module WLRob
         FabricType = Cotton,
         WorldStaticModel = greencultgrunttrousersGround,
     }
-    item cult_Wyoming_grunt_jacket
+    item Providence_wyoming_grunt_jacket
     {
         DisplayCategory = Clothing,
         Type = Clothing,
         DisplayName = Providence Wyoming Region Grunt Jacket,
-        ClothingItem = cult_Wyoming_grunt_jacket,
+        ClothingItem = Providence_wyoming_grunt_jacket,
         BodyLocation = Jacket,
         BloodLocation = Jacket,
         Icon = cultgruntjacketicon,
@@ -362,12 +362,12 @@ module WLRob
         Weight = 2,
         WorldStaticModel = cultgruntjacketGround,
     }
-    item cult_Wyoming_grunt_trousers
+    item Providence_wyoming_grunt_trousers
     {
         DisplayCategory = Clothing,
         Type = Clothing,
         DisplayName = Providence Wyoming Region Grunt Trousers,
-        ClothingItem = cult_Wyoming_grunt_trousers,
+        ClothingItem = Providence_wyoming_grunt_trousers,
         BodyLocation = Pants,
         Icon = cultgrunttrousersicon,
         BloodLocation = Trousers,
