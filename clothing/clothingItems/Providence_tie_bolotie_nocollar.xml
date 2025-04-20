@@ -6,12 +6,5 @@
 	<m_Static>false</m_Static>
 	<m_AllowRandomTint>false</m_AllowRandomTint>
 	<m_AttachBone></m_AttachBone>
-	<textureChoices>clothes\Ties_Bolo\Bolo_Tie_noneck_1</textureChoices>
-	<textureChoices>clothes\Ties_Bolo\Bolo_Tie_noneck_2</textureChoices>
-	<textureChoices>clothes\Ties_Bolo\Bolo_Tie_noneck_3</textureChoices>
-	<textureChoices>clothes\Ties_Bolo\Bolo_Tie_noneck_4</textureChoices>
-	<textureChoices>clothes\Ties_Bolo\Bolo_Tie_noneck_5</textureChoices>
-	<textureChoices>clothes\Ties_Bolo\Bolo_Tie_noneck_6</textureChoices>
-	<textureChoices>clothes\Ties_Bolo\Bolo_Tie_noneck_A1</textureChoices>
-	<textureChoices>clothes\Ties_Bolo\Bolo_Tie_noneck_A2</textureChoices>
+	<textureChoices>Ties_Bolo\Bolo_Tie_noneck_1</textureChoices>
 </clothingItem>
