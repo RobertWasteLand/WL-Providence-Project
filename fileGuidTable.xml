@@ -164,4 +164,16 @@
         <guid>bfa84095-4e8c-4859-bc7b-98f2fd9d801d</guid>
     </files>
 
+<!--                                            [Frockin Shirts & Ties]                                                 -->
+
+	<files>
+    <path>media/clothing/clothingItems/Providence_tie_bolotie_nocollar.xml</path>
+    <guid>ac17933b-acf7-4aa6-8dcb-e489c7fbd4aa</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Providence_tie_bolotiefull.xml</path>
+    <guid>ff7e2d46-5220-4067-b9ab-8954639ac1bc</guid>
+	</files>
+
 </fileGuidTable>

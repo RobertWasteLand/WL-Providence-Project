@@ -377,4 +377,34 @@ module WLRob
         FabricType = Cotton,
         WorldStaticModel = greencultgrunttrousersGround,
     }
+    item Providence_tie_bolotiefull
+	{
+		DisplayName = Providence Bolo Tie Full,
+		DisplayCategory = Accessory,
+		Type = Clothing,
+		Weight = 0.1,
+		Icon = TieBolo,
+		BodyLocation = Neck,
+		ClothingItem = Providence_tie_bolotiefull,
+			FabricType = Leather,
+			
+			ClothingItemExtra = Providence_tie_bolotie_nocollar,
+			ClothingItemExtraOption  = BelowCollar,
+		WorldStaticModel = Tie_Ground,
+	}
+    item Providence_tie_bolotie_nocollar
+	{
+		DisplayName = Providence Bolo Tie No Collar,
+		DisplayCategory = Accessory,
+		Type = Clothing,
+		Weight = 0.1,
+		Icon = TieBolo,
+		BodyLocation = Neck,
+		ClothingItem = Providence_tie_bolotie_nocollar,
+			FabricType = Leather,
+			
+			ClothingItemExtra = Providence_tie_bolotiefull,
+			ClothingItemExtraOption  = AboveCollar,
+		WorldStaticModel = Tie_Ground,
+	}
 }
