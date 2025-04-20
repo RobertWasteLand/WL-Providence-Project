@@ -5,12 +5,12 @@ module WLRob
         Base
     }
 	
-    item white_heavycultcap
+    item Providence_white_heavycultcap
 	{
 	    DisplayCategory = Accessory,
 		Type = Clothing,
 		DisplayName = Providence White 4-Star General Cap,
-		ClothingItem = white_heavycultcap,
+		ClothingItem = Providence_white_heavycultcap,
 		BodyLocation = Hat,
 		Icon = white_heavycultcapicon,
 		CanHaveHoles = false,
@@ -23,12 +23,12 @@ module WLRob
         Weight = 3,
         WorldStaticModel = white_heavycultcap_Ground,
     }
-    item enforcer_cap
+    item Providence_enforcer_cap
 	{
 	    DisplayCategory = Accessory,
 		Type = Clothing,
 		DisplayName = Providence Enforcer Helmet,
-		ClothingItem = enforcer_cap,
+		ClothingItem = Providence_enforcer_cap,
 		BodyLocation = Hat,
 		Icon = enforcerhelmeticon,
 		CanHaveHoles = false,
@@ -41,12 +41,12 @@ module WLRob
         Weight = 3,
         WorldStaticModel = enforcerhelmet_Ground,
     }
-    item black_heavycultcap
+    item Providence_black_heavy_cult_cap
 	{
 	    DisplayCategory = Accessory,
 		Type = Clothing,
 		DisplayName = Providence Black 4-Star General Cap,
-		ClothingItem = black_heavycultcap,
+		ClothingItem = Providence_black_heavy_cult_cap,
 		BodyLocation = Hat,
 		Icon = black_heavycultcapicon,
 		CanHaveHoles = false,
@@ -59,12 +59,12 @@ module WLRob
         Weight = 3,
         WorldStaticModel = black_heavycultcap_Ground,
     }
-    item cultcommandercap
+    item Providence_cult_commander_cap
 	{
 	    DisplayCategory = Accessory,
 		Type = Clothing,
 		DisplayName = Providence 5-Star General Cap,
-		ClothingItem = cultcommandercap,
+		ClothingItem = Providence_cult_commander_cap,
 		BodyLocation = Hat,
 		Icon = cultcommandercapicon,
 		CanHaveHoles = false,
@@ -77,12 +77,12 @@ module WLRob
         Weight = 3,
         WorldStaticModel = supremecultcommandercap_Ground,
     }
-    item fez
+    item Providence_fez
 	{
 	    DisplayCategory = Accessory,
 		Type = Clothing,
 		DisplayName = Providence Fez,
-		ClothingItem = fez,
+		ClothingItem = Providence_fez,
 		BodyLocation = Hat,
 		Icon = fezicon,
 		CanHaveHoles = false,
@@ -95,12 +95,12 @@ module WLRob
         Weight = 3,
         WorldStaticModel = fez_ground,
     }
-    item Tankdriverscraphelmet
+    item Providence_tank_driver_helmet
 	{
 	    DisplayCategory = Accessory,
 		Type = Clothing,
 		DisplayName = Providence Tank Driver Helmet,
-		ClothingItem = Tankdriverscraphelmet,
+		ClothingItem = Providence_tank_driver_helmet,
 		BodyLocation = Hat,
 		Icon = fezicon,
 		CanHaveHoles = false,
@@ -113,12 +113,12 @@ module WLRob
         Weight = 3,
         WorldStaticModel = Tankdriverscraphelmet_ground,
     }
-    item BlackProvidenceSoldierCap
+    item Providence_black_grunt_cap
 	{
 	    DisplayCategory = Accessory,
 		Type = Clothing,
 		DisplayName = Providence Grunt Cap,
-		ClothingItem = BlackProvidenceSoldierCap,
+		ClothingItem = Providence_black_grunt_cap,
 		BodyLocation = Hat,
 		Icon = BlackProvCapTex,
 		CanHaveHoles = false,
@@ -130,16 +130,16 @@ module WLRob
 		WaterResistance = 0.2,
         Weight = 3,
         WorldStaticModel = BlackProvidenceSoldierCap_Ground,
-		ClothingItemExtra = BlackProvidenceSoldierCapVisorUp,
+		ClothingItemExtra = Providence_black_grunt_cap_visor_on,
         ClothingItemExtraOption = HelmetVisorDown,
         clothingExtraSubmenu = HelmetVisorUp,
     }
-    item BlackProvidenceSoldierCapVisorUp
+    item Providence_black_grunt_cap_visor_on
 	{
 	    DisplayCategory = Accessory,
 		Type = Clothing,
 		DisplayName = Providence Grunt Cap Visor-On,
-		ClothingItem = BlackProvidenceSoldierCapVisorUp,
+		ClothingItem = Providence_black_grunt_cap_visor_on,
 		BodyLocation = Hat,
 		Icon = BlackProvCapTex,
 		CanHaveHoles = false,
@@ -151,16 +151,16 @@ module WLRob
 		WaterResistance = 0.2,
         Weight = 3,
         WorldStaticModel = BlackProvidenceSoldierCap_Ground,
-		ClothingItemExtra = BlackProvidenceSoldierCap,
+		ClothingItemExtra = Providence_black_grunt_cap,
         ClothingItemExtraOption = HelmetVisorDown,
         clothingExtraSubmenu = HelmetVisorUp,
     }
-    item MedicalProvidenceSoldierCap
+    item Providence_medical_grunt_cap
 	{
 	    DisplayCategory = Accessory,
 		Type = Clothing,
 		DisplayName = Providence Medical Grunt Cap,
-		ClothingItem = MedicalProvidenceSoldierCap,
+		ClothingItem = Providence_medical_grunt_cap,
 		BodyLocation = Hat,
 		Icon = BlackProvCapTex,
 		CanHaveHoles = false,
@@ -172,16 +172,16 @@ module WLRob
 		WaterResistance = 0.2,
         Weight = 3,
         WorldStaticModel = BlackProvidenceSoldierCap_Ground,
-		ClothingItemExtra = MedicalProvidenceSoldierCapVisorUp,
+		ClothingItemExtra = Providence_medical_grunt_cap_visor_on,
         ClothingItemExtraOption = HelmetVisorDown,
         clothingExtraSubmenu = HelmetVisorUp,
     }
-    item MedicalProvidenceSoldierCapVisorUp
+    item Providence_medical_grunt_cap_visor_on
 	{
 	    DisplayCategory = Accessory,
 		Type = Clothing,
 		DisplayName = Providence Medical Grunt Cap Visor-On,
-		ClothingItem = MedicalProvidenceSoldierCapVisorUp,
+		ClothingItem = Providence_medical_grunt_cap_visor_on,
 		BodyLocation = Hat,
 		Icon = BlackProvCapTex,
 		CanHaveHoles = false,
@@ -193,16 +193,16 @@ module WLRob
 		WaterResistance = 0.2,
         Weight = 3,
         WorldStaticModel = BlackProvidenceSoldierCap_Ground,
-		ClothingItemExtra = MedicalProvidenceSoldierCap,
+		ClothingItemExtra = Providence_medical_grunt_cap,
         ClothingItemExtraOption = HelmetVisorDown,
         clothingExtraSubmenu = HelmetVisorUp,
     }
-    item OrangeProvidenceSoldierCap
+    item Providence_grenadier_cap
 	{
 	    DisplayCategory = Accessory,
 		Type = Clothing,
 		DisplayName = Providence Grenadier Grunt Cap,
-		ClothingItem = OrangeProvidenceSoldierCap,
+		ClothingItem = Providence_grenadier_cap,
 		BodyLocation = Hat,
 		Icon = BlackProvCapTex,
 		CanHaveHoles = false,
@@ -214,16 +214,16 @@ module WLRob
 		WaterResistance = 0.2,
         Weight = 3,
         WorldStaticModel = BlackProvidenceSoldierCap_Ground,
-		ClothingItemExtra = OrangeProvidenceSoldierCapVisorUp,
+		ClothingItemExtra = Providence_grenadier_cap_visor_on,
         ClothingItemExtraOption = HelmetVisorDown,
         clothingExtraSubmenu = HelmetVisorUp,
     }
-    item OrangeProvidenceSoldierCapVisorUp
+    item Providence_grenadier_cap_visor_on
 	{
 	    DisplayCategory = Accessory,
 		Type = Clothing,
 		DisplayName = Providence Grunt Grenadier  Cap Visor-On,
-		ClothingItem = OrangeProvidenceSoldierCapVisorUp,
+		ClothingItem = Providence_grenadier_cap_visor_on,
 		BodyLocation = Hat,
 		Icon = BlackProvCapTex,
 		CanHaveHoles = false,
@@ -235,16 +235,16 @@ module WLRob
 		WaterResistance = 0.2,
         Weight = 3,
         WorldStaticModel = BlackProvidenceSoldierCap_Ground,
-		ClothingItemExtra = OrangeProvidenceSoldierCap,
+		ClothingItemExtra = Providence_grenadier_cap,
         ClothingItemExtraOption = HelmetVisorDown,
         clothingExtraSubmenu = HelmetVisorUp,
     }
-    item BlackProvidenceJrCommanderCap
+    item Providence_jr_commander_cap
 	{
 	    DisplayCategory = Accessory,
 		Type = Clothing,
 		DisplayName = Providence 3-Star General Cap,
-		ClothingItem = BlackProvidenceJrCommanderCap,
+		ClothingItem = Providence_jr_commander_cap,
 		BodyLocation = Hat,
 		Icon = ProvidenceJrCommanderCapTex,
 		CanHaveHoles = false,
@@ -257,12 +257,12 @@ module WLRob
         Weight = 3,
         WorldStaticModel = BlackProvidenceSoldierCap_Ground,
     }
-    item GreenProvidenceSoldierCap_art
+    item Providence_artillery_cap
 	{
 	    DisplayCategory = Accessory,
 		Type = Clothing,
 		DisplayName = Providence Artillery Grunt Cap,
-		ClothingItem = GreenProvidenceSoldierCap_art,
+		ClothingItem = Providence_artillery_cap,
 		BodyLocation = Hat,
 		Icon = GreenProvCapTex,
 		CanHaveHoles = false,
@@ -274,16 +274,16 @@ module WLRob
 		WaterResistance = 0.2,
         Weight = 3,
         WorldStaticModel = GreenProvidenceSoldierCap_Ground,
-		ClothingItemExtra = GreenProvidenceSoldierCapVisorUp_art,
+		ClothingItemExtra = Providence_artillery_gap_visor_on,
         ClothingItemExtraOption = HelmetVisorDown,
         clothingExtraSubmenu = HelmetVisorUp,
     }
-    item GreenProvidenceSoldierCapVisorUp_art
+    item Providence_artillery_gap_visor_on
 	{
 	    DisplayCategory = Accessory,
 		Type = Clothing,
 		DisplayName = Providence Artillery Grunt Cap Visor-On,
-		ClothingItem = GreenProvidenceSoldierCapVisorUp_art,
+		ClothingItem = Providence_artillery_gap_visor_on,
 		BodyLocation = Hat,
 		Icon = GreenProvCapTex,
 		CanHaveHoles = false,
@@ -295,16 +295,16 @@ module WLRob
 		WaterResistance = 0.2,
         Weight = 3,
         WorldStaticModel = GreenProvidenceSoldierCap_Ground,
-		ClothingItemExtra = GreenProvidenceSoldierCap_art,
+		ClothingItemExtra = Providence_artillery_cap,
         ClothingItemExtraOption = HelmetVisorDown,
         clothingExtraSubmenu = HelmetVisorUp,
     }
-    item WyomingProvidenceSoldierCap
+    item Providence_wyoming_grunt_cap
 	{
 	    DisplayCategory = Accessory,
 		Type = Clothing,
 		DisplayName = Providence Wyoming Region Grunt Cap,
-		ClothingItem = WyomingProvidenceSoldierCap,
+		ClothingItem = Providence_wyoming_grunt_cap,
 		BodyLocation = Hat,
 		Icon = GreenProvCapTex,
 		CanHaveHoles = false,
@@ -316,16 +316,16 @@ module WLRob
 		WaterResistance = 0.2,
         Weight = 3,
         WorldStaticModel = WyomingProvidenceSoldierCap_Ground,
-		ClothingItemExtra = WyomingProvidenceSoldierCapVisorUp,
+		ClothingItemExtra = Providence_wyoming_grunt_cap_visor_on,
         ClothingItemExtraOption = HelmetVisorDown,
         clothingExtraSubmenu = HelmetVisorUp,
     }
-    item WyomingProvidenceSoldierCapVisorUp
+    item Providence_wyoming_grunt_cap_visor_on
 	{
 	    DisplayCategory = Accessory,
 		Type = Clothing,
 		DisplayName = Providence Wyoming Region Grunt Cap Visor-On,
-		ClothingItem = WyomingProvidenceSoldierCapVisorUp,
+		ClothingItem = Providence_wyoming_grunt_cap_visor_on,
 		BodyLocation = Hat,
 		Icon = GreenProvCapTex,
 		CanHaveHoles = false,
@@ -337,7 +337,7 @@ module WLRob
 		WaterResistance = 0.2,
         Weight = 3,
         WorldStaticModel = WyomingProvidenceSoldierCap_Ground,
-		ClothingItemExtra = WyomingProvidenceSoldierCap,
+		ClothingItemExtra = Providence_wyoming_grunt_cap,
         ClothingItemExtraOption = HelmetVisorDown,
         clothingExtraSubmenu = HelmetVisorUp,
     }

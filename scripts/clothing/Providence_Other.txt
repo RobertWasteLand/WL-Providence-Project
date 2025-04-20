@@ -29,12 +29,12 @@ module WLRob
 		Cosmetic = TRUE,
 		ChanceToFall = 50,
 	}
-    item cult_ribbion
+    item cult_ribbon
 	{
 	    DisplayCategory = Clothing,
 		Type = Clothing,
 		DisplayName = Providence Ribbon,
-		ClothingItem = cult_ribbion,
+		ClothingItem = cult_ribbon,
 		BodyLocation = TorsoExtra,
 		Icon = cult_ribbionicon,
 		FabricType = Cotton,

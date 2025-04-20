@@ -5,97 +5,81 @@
 
 
     <files>
-        <path>media/clothing/clothingItems/white_heavycultcap.xml</path>
+        <path>media/clothing/clothingItems/Providence_white_heavycultcap.xml</path>
         <guid>7f1b227f-828f-464f-8234-0774d6a8afbe</guid>
     </files>
     <files>
-        <path>media/clothing/clothingItems/Tankdriverscraphelmet.xml</path>
+        <path>media/clothing/clothingItems/Providence_tank_driver_helmet.xml</path>
         <guid>1b844213-d33b-4c5a-b55e-7615740ba955</guid>
     </files>
     <files>
-        <path>media/clothing/clothingItems/enforcer_cap.xml</path>
+        <path>media/clothing/clothingItems/Providence_enforcer_cap.xml</path>
         <guid>5d1f3f16-711a-4d7d-b7ca-fcf5a813b3cc</guid>
     </files>
     <files>
-        <path>media/clothing/clothingItems/black_heavycultcap.xml</path>
+        <path>media/clothing/clothingItems/Providence_black_heavy_cult_cap.xml</path>
         <guid>cdc6054d-cce7-4288-8595-526fe97b7b86</guid>
     </files>
     <files>
-        <path>media/clothing/clothingItems/cultcommandercap.xml</path>
+        <path>media/clothing/clothingItems/Providence_cult_commander_cap.xml</path>
         <guid>e6e1c9b0-319b-44ad-ad9d-0e0db4b4cd47</guid>
     </files>
 	<files>
-        <path>media/clothing/clothingItems/fez.xml</path>
+        <path>media/clothing/clothingItems/Providence_fez.xml</path>
         <guid>73cffb6d-70d8-4d52-bd6c-af91daeac1f1</guid>
     </files>
 	<files>
-        <path>media/clothing/clothingItems/ProvidenceCommanderCape.xml</path>
-        <guid>5be45b69-b60c-4e96-b3ca-2d87cd3dcd8a</guid>
-    </files>
-	<files>
-        <path>media/clothing/clothingItems/BlackProvidenceSoldierCap.xml</path>
+        <path>media/clothing/clothingItems/Providence_black_grunt_cap.xml</path>
         <guid>bc275b39-c87b-4315-b064-13f7129101b7</guid>
     </files>
 	<files>
-        <path>media/clothing/clothingItems/BlackProvidenceSoldierCapVisorUp.xml</path>
+        <path>media/clothing/clothingItems/Providence_black_grunt_cap_visor_on.xml</path>
         <guid>b0b074b8-7bc1-4305-9b3b-c3fc050fc22b</guid>
     </files>
 	<files>
-        <path>media/clothing/clothingItems/MedicalProvidenceSoldierCap.xml</path>
+        <path>media/clothing/clothingItems/Providence_medical_grunt_cap.xml</path>
         <guid>b672349e-7507-48e3-b683-bf465e0d5c87</guid>
     </files>
 	<files>
-        <path>media/clothing/clothingItems/MedicalProvidenceSoldierCapVisorUp.xml</path>
+        <path>media/clothing/clothingItems/Providence_medical_grunt_cap_visor_on.xml</path>
         <guid>8e2e1cd2-38b3-4e8c-9e9c-8a82f5d8054e</guid>
     </files>
 	<files>
-        <path>media/clothing/clothingItems/BlackProvidenceJrCommandJacket.xml</path>
-        <guid>03dc1ad9-6820-4f40-9664-e7d172f32aa2</guid>
-    </files>
-	<files>
-        <path>media/clothing/clothingItems/WhiteProvidenceCommandJacket.xml</path>
-        <guid>d555347c-2c18-448b-b280-a80698196236</guid>
-    </files>
-	<files>
-        <path>media/clothing/clothingItems/WhiteProvidenceCommanderCoat.xml</path>
-        <guid>907d63ae-ce6d-4f56-913a-5bd34848460b</guid>
-    </files>
-	<files>
-        <path>media/clothing/clothingItems/BlackProvidenceCommanderCoat.xml</path>
-        <guid>bfa84095-4e8c-4859-bc7b-98f2fd9d801d</guid>
-    </files>
-	<files>
-        <path>media/clothing/clothingItems/BlackProvidenceJrCommanderCap.xml</path>
+        <path>media/clothing/clothingItems/Providence_jr_commander_cap.xml</path>
         <guid>95bd0af6-2903-4f73-a9e3-60212375f607</guid>
     </files>
 	<files>
-        <path>media/clothing/clothingItems/GreenProvidenceSoldierCap_art.xml</path>
+        <path>media/clothing/clothingItems/Providence_artillery_cap.xml</path>
         <guid>5dbcbad1-4ab4-4b6d-bb41-c1f78bfc7065</guid>
     </files>
 	<files>
-        <path>media/clothing/clothingItems/GreenProvidenceSoldierCapVisorUp_art.xml</path>
+        <path>media/clothing/clothingItems/Providence_artillery_gap_visor_on.xml</path>
         <guid>060a28ae-9f00-43ef-9e3f-435be2c77c0b</guid>
     </files>
 	<files>
-        <path>media/clothing/clothingItems/OrangeProvidenceSoldierCap.xml</path>
+        <path>media/clothing/clothingItems/Providence_grenadier_cap.xml</path>
         <guid>5efbf70e-ea2c-4c39-bb40-3032a36ee43b</guid>
     </files>
 	<files>
-        <path>media/clothing/clothingItems/OrangeProvidenceSoldierCapVisorUp.xml</path>
+        <path>media/clothing/clothingItems/Providence_grenadier_cap_visor_on.xml</path>
         <guid>4696bc80-e77c-4f7f-90a5-338b0fe0cb99</guid>
     </files>
 	<files>
-        <path>media/clothing/clothingItems/WyomingProvidenceSoldierCap.xml</path>
+        <path>media/clothing/clothingItems/Providence_wyoming_grunt_cap.xml</path>
         <guid>27d12657-d396-4170-abc7-d6f02d72a293</guid>
     </files>
 	<files>
-        <path>media/clothing/clothingItems/WyomingProvidenceSoldierCapVisorUp.xml</path>
+        <path>media/clothing/clothingItems/Providence_wyoming_grunt_cap_visor_on.xml</path>
         <guid>d63c42b3-ee9d-4191-9a83-9edee6c24b07</guid>
     </files>
 	
 <!--                                            [Cult Other]                                                 -->
 
-    <files>
+	<files>
+        <path>media/clothing/clothingItems/ProvidenceCommanderCape.xml</path>
+        <guid>5be45b69-b60c-4e96-b3ca-2d87cd3dcd8a</guid>
+    </files>
+	<files>
         <path>media/clothing/clothingItems/glasses_orange_aviators.xml</path>
         <guid>f8c54273-3503-4b5f-97f3-7a7deead72b7</guid>
     </files>
@@ -120,7 +104,7 @@
         <guid>51a3b98a-7638-46fa-b1b8-f2d999ce6215</guid>
     </files>
     <files>
-        <path>media/clothing/clothingItems/cult_ribbion.xml</path>
+        <path>media/clothing/clothingItems/cult_ribbon.xml</path>
         <guid>acd2348e-b26f-4312-8b53-856fc8b51809</guid>
     </files>
     <files>
@@ -162,6 +146,22 @@
     <files>
         <path>media/clothing/clothingItems/cult_armour_med.xml</path>
         <guid>fc3ecc2d-89ff-4cfb-9ddf-7ea644ff1a9d</guid>
+    </files>
+	<files>
+        <path>media/clothing/clothingItems/BlackProvidenceJrCommandJacket.xml</path>
+        <guid>03dc1ad9-6820-4f40-9664-e7d172f32aa2</guid>
+    </files>
+	<files>
+        <path>media/clothing/clothingItems/WhiteProvidenceCommandJacket.xml</path>
+        <guid>d555347c-2c18-448b-b280-a80698196236</guid>
+    </files>
+	<files>
+        <path>media/clothing/clothingItems/WhiteProvidenceCommanderCoat.xml</path>
+        <guid>907d63ae-ce6d-4f56-913a-5bd34848460b</guid>
+    </files>
+	<files>
+        <path>media/clothing/clothingItems/BlackProvidenceCommanderCoat.xml</path>
+        <guid>bfa84095-4e8c-4859-bc7b-98f2fd9d801d</guid>
     </files>
 
 </fileGuidTable>
