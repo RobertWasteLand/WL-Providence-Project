@@ -182,7 +182,7 @@ module WLRob
          {
         Type = Clothing,
         DisplayName = Providence Grenadier Scrap Armour,
-        ClothingItem = cult_armour_gren,
+        ClothingItem = Providence_armour_grenadier,
         BodyLocation = TorsoExtra,
         Icon = Item_cultarmourgrenicon,
         BloodLocation = ShirtNoSleeves,
