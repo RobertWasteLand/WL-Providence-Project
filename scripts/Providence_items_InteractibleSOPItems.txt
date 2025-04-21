@@ -23,4 +23,26 @@ module WLRob
 		Tooltip = Tooltip_Providencemap,
 		WorldStaticModel = Providence_map_ground
 	}
+	item Providence_gold_bar
+	{
+		DisplayCategory = Literature,
+		Weight = 30,
+		Type = Map,
+		DisplayName = Providence 1000g Gold Bar,
+		Icon = Providence_goldbar_Icon.png,
+		Map = Providence_gold_bar,
+		Tooltip = Tooltip_Providencegoldbar,
+		WorldStaticModel = Providence_gold_bar_ground
+	}
+	item Providence_artilleryshell
+	{
+		DisplayCategory = Literature,
+		Weight = 5,
+		Type = Map,
+		DisplayName = Providence Artillery Shell,
+		Icon = Providence_artilleryshell_Icon.png,
+		Map = Providence_artilleryshell,
+		Tooltip = Tooltip_Providenceartilleryshell,
+		WorldStaticModel = Providence_artilleryshell_ground
+	}
 }

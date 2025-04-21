@@ -37,3 +37,19 @@ LootMaps.Init.Providence_Map = function(mapUI)
     mapAPI:setBoundsInSquares(PaperX1, PaperY1, 770.0, 710.0)
     overlayPNG(mapUI, PaperX1, PaperY1, 1.0, "lootMapPNG", "media/ui/LootableMaps/Providence_Map.png", 1.0)
 end
+
+LootMaps.Init.Providence_gold_bar = function(mapUI)
+    local mapAPI = mapUI.javaObject:getAPIv1()
+    MapUtils.initDirectoryMapData(mapUI, 'media/maps/Muldraugh, KY')
+    MapUtils.initDefaultStyleV1(mapUI)
+    mapAPI:setBoundsInSquares(PaperX1, PaperY1, 125.0, 235.0)
+    overlayPNG(mapUI, PaperX1, PaperY1, 1.0, "lootMapPNG", "media/ui/LootableMaps/Providence_gold_bar.png", 1.0)
+end
+
+LootMaps.Init.Providence_artilleryshell = function(mapUI)
+    local mapAPI = mapUI.javaObject:getAPIv1()
+    MapUtils.initDirectoryMapData(mapUI, 'media/maps/Muldraugh, KY')
+    MapUtils.initDefaultStyleV1(mapUI)
+    mapAPI:setBoundsInSquares(PaperX1, PaperY1, 350.0, 615.0)
+    overlayPNG(mapUI, PaperX1, PaperY1, 1.0, "lootMapPNG", "media/ui/LootableMaps/Providence_artilleryshell.png", 1.0)
+end

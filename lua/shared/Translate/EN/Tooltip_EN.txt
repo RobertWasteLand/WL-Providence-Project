@@ -1,4 +1,6 @@
 Tooltip_EN = {
-	Tooltip_ProvidenceCurrency = "The flimsy paper in your hand seems to be some kind of legal tender printed by some sort of political entity. |-| !!!YOU CAN INSPECT THIS > RIGHT CLICK > READ MAP!!!"
-	Tooltip_Providencemap = "I Have No Idea What This Map Is Abo- Oh! Im Holding It Upside Down.  |-| !!!YOU CAN INSPECT THIS > RIGHT CLICK > READ MAP!!!"
+	Tooltip_ProvidenceCurrency = "Currency used within Providence, it's practically worthless in Knox County. It Makes a Good Wall Decoration, Though! |-| !!!YOU CAN INSPECT THIS > RIGHT CLICK > READ MAP!!!"
+	Tooltip_Providenceartilleryshell = "While you have no idea how this thing works, one thing is certain: don't drop it! |-| !!!YOU CAN INSPECT THIS > RIGHT CLICK > READ MAP!!!"
+	Tooltip_Providencegoldbar = "I Know What You're Thinking. You can't shove your pockets full of this stuff and walk back to Knox County from Wyoming. And no, the bus won't take you. Sometimes you just have to let go.  |-| !!!YOU CAN INSPECT THIS > RIGHT CLICK > READ MAP!!!"
+	Tooltip_Providencemap = "I have no Idea what this map is abo- oh! im holding it upside down. |-| !!!YOU CAN INSPECT THIS > RIGHT CLICK > READ MAP!!!"
 }

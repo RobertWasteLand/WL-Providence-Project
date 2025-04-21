@@ -27,7 +27,19 @@ module Base
 	model Providence_clothing_box
 	{
 		mesh = WorldItems/Providence_clothing_box,
-		texture = Providence_clothing_box_texture,
+		texture = WorldItems/Providence_clothing_box_texture,
+		scale = 0.5,
+	}
+	model Providence_gold_bar_ground
+	{
+		mesh = WorldItems/Providence_gold_bar_ground,
+		texture = WorldItems/Providence_gold_bar_texture,
+		scale = 0.5,
+	}
+	model Providence_artilleryshell_ground
+	{
+		mesh = WorldItems/Providence_artilleryshell_ground,
+		texture = WorldItems/Providence_artilleryshell_texture,
 		scale = 0.5,
 	}
 }
