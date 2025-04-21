@@ -43,5 +43,6 @@ module WLRob
         DoorHitSound = UmbrellaHit,
         HitSound	=	UmbrellaHit,
         SwingSound = UmbrellaSwing,
+        WorldStaticModel = ProvidenceBattleStandard_ground,
     }
 }

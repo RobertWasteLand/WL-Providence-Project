@@ -62,7 +62,7 @@ module Base
 			engine = VehicleEngineSmallCar,
 			engineStart = VehicleEngineSmallCar,
 			engineTurnOff = VehicleEngineSmallCar,
-			horn = StallionHorn,
+			horn = VehicleHornStandard,
 			ignitionFail = VehicleIgnitionFailSmallCar,
 		}
 

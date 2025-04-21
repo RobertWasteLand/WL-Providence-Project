@@ -24,6 +24,11 @@ module Base
 			rotate = 0.0000 0.0000 0.0000,
 		}
 	}
+	model ProvidenceBattleStandard_ground
+	{
+		mesh = WorldItems/ProvidenceBattleStandard_ground,
+		texture = Weapons/2Handed/ProvidenceBattleStandardtex,
+	}
 	model Providence_clothing_box
 	{
 		mesh = WorldItems/Providence_clothing_box,
