@@ -1,26 +1,26 @@
 module WLRob
 
 {
-	item SOPCurrency
+	item Providence_Currency
 	{
 		DisplayCategory = Literature,
 		Weight = 0.1,
 		Type = Map,
 		DisplayName = Providence Legal Tender,
-		Icon = SOPCurrencyIcon.png,
-		Map = SOPCurrency,
+		Icon = Providence_currency_icon.png,
+		Map = Providence_Currency,
 		Tooltip = Tooltip_ProvidenceCurrency,
-		WorldStaticModel = SOPMoneyground
+		WorldStaticModel = Providence_money_ground
 	}
-	item SOPMap
+	item Providence_Map
 	{
 		DisplayCategory = Literature,
 		Weight = 0.1,
 		Type = Map,
 		DisplayName = Providence Mass-Produced Map,
-		Icon = SOPmapIcon.png,
-		Map = SOPMap,
+		Icon = Providence_map_Icon.png,
+		Map = Providence_Map,
 		Tooltip = Tooltip_Providencemap,
-		WorldStaticModel = SOPmapground
+		WorldStaticModel = Providence_map_ground
 	}
 }

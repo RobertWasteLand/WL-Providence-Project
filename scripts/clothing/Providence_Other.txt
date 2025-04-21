@@ -38,7 +38,7 @@ module WLRob
 		BodyLocation = TorsoExtra,
 		Icon = cult_ribbionicon,
 		FabricType = Cotton,
-		WorldStaticModel = CultRibbionGround,
+		WorldStaticModel = Providence_clothing_box,
 	}
     item Providence_enforcer_chest_walki
 	{
@@ -49,7 +49,7 @@ module WLRob
 		BodyLocation = TorsoExtra,
 		Icon = CHANGELATER-GEEBUS,
 		FabricType = Cotton,
-		WorldStaticModel = CHANGELATER-GEEBUS,
+		WorldStaticModel = Providence_clothing_box,
 	}
     item Providence_grunt_jacket
     {
@@ -68,7 +68,7 @@ module WLRob
         WindResistance = 0.2,
         FabricType = Cotton,
         Weight = 2,
-        WorldStaticModel = cultgruntjacketGround,
+        WorldStaticModel = Providence_clothing_box,
     }
     item Providence_grunt_jacket_medical
     {
@@ -87,7 +87,7 @@ module WLRob
         WindResistance = 0.2,
         FabricType = Cotton,
         Weight = 2,
-        WorldStaticModel = cultgruntjacketGround,
+        WorldStaticModel = Providence_clothing_box,
     }
     item Providence_enforcer_jacket
     {
@@ -106,7 +106,7 @@ module WLRob
         WindResistance = 0.2,
         FabricType = Cotton,
         Weight = 2,
-        WorldStaticModel = enforcerjacketground,
+        WorldStaticModel = Providence_clothing_box,
     }
     item Providence_grunt_jacket_grenadier
     {
@@ -125,7 +125,7 @@ module WLRob
         WindResistance = 0.2,
         FabricType = Cotton,
         Weight = 2,
-        WorldStaticModel = cultgruntjacketGround,
+        WorldStaticModel = Providence_clothing_box,
     }
     item Providence_grunt_trousers
     {
@@ -140,7 +140,7 @@ module WLRob
         Insulation = 0.4,
         WindResistance = 0.2,
         FabricType = Cotton,
-        WorldStaticModel = cultgrunttrousersGround,
+        WorldStaticModel = Providence_clothing_box,
     }
     item Providence_armour
          {
@@ -158,7 +158,7 @@ module WLRob
         Insulation = 0.6,
         WindResistance = 0.35,
         Weight = 2.5,
-        WorldStaticModel = cultarmourtexGround,
+        WorldStaticModel = Providence_clothing_box,
     }
     item Providence_armour_medical
          {
@@ -176,7 +176,7 @@ module WLRob
         Insulation = 0.6,
         WindResistance = 0.35,
         Weight = 2.5,
-        WorldStaticModel = cultarmourtexGround,
+        WorldStaticModel = Providence_clothing_box,
     }
 	    item Providence_armour_grenadier
          {
@@ -194,7 +194,7 @@ module WLRob
         Insulation = 0.6,
         WindResistance = 0.35,
         Weight = 2.5,
-        WorldStaticModel = cultarmourtexGround,
+        WorldStaticModel = Providence_clothing_box,
         }
     item Providence_armour_artillery
          {
@@ -212,7 +212,7 @@ module WLRob
         Insulation = 0.6,
         WindResistance = 0.35,
         Weight = 2.5,
-        WorldStaticModel = cultarmourtexGround,
+        WorldStaticModel = Providence_clothing_box,
         }
     item Providence_jr_commander_jacket
     {
@@ -231,7 +231,7 @@ module WLRob
         WindResistance = 0.45,
         FabricType = Cotton,
         WaterResistance = 0.55,
-        WorldStaticModel = JacketCoat_Ground,
+        WorldStaticModel = Providence_clothing_box,
     }
     item Providence_commander_coat
     {
@@ -250,7 +250,7 @@ module WLRob
         WindResistance = 0.45,
         FabricType = Cotton,
         WaterResistance = 0.55,
-        WorldStaticModel = ProvidenceCommanderCoat,
+        WorldStaticModel = Providence_clothing_box,
     }
     item Providence_jr_commander_coat
     {
@@ -269,7 +269,7 @@ module WLRob
         WindResistance = 0.45,
         FabricType = Cotton,
         WaterResistance = 0.55,
-        WorldStaticModel = ProvidenceCommanderCoat,
+        WorldStaticModel = Providence_clothing_box,
     }
     item Providence_commander_cape
     {
@@ -288,7 +288,7 @@ module WLRob
         WindResistance = 0.45,
         FabricType = Cotton,
         WaterResistance = 0.55,
-        WorldStaticModel = ProvidenceCommanderCapeIcon,
+        WorldStaticModel = Providence_clothing_box,
     }
     item Providence_commander_jacket
     {
@@ -307,7 +307,7 @@ module WLRob
         WindResistance = 0.45,
         FabricType = Cotton,
         WaterResistance = 0.55,
-        WorldStaticModel = JacketCoat_Ground,
+        WorldStaticModel = Providence_clothing_box,
     }
     item Providence_grunt_jacket_artillery
     {
@@ -326,7 +326,7 @@ module WLRob
         WindResistance = 0.2,
         FabricType = Cotton,
         Weight = 2,
-        WorldStaticModel = greencultgruntjacketGround,
+        WorldStaticModel = Providence_clothing_box,
     }
     item Providence_grunt_trousers_artillery
     {
@@ -341,7 +341,7 @@ module WLRob
         Insulation = 0.4,
         WindResistance = 0.2,
         FabricType = Cotton,
-        WorldStaticModel = greencultgrunttrousersGround,
+        WorldStaticModel = Providence_clothing_box,
     }
     item Providence_wyoming_grunt_jacket
     {
@@ -360,7 +360,7 @@ module WLRob
         WindResistance = 0.2,
         FabricType = Cotton,
         Weight = 2,
-        WorldStaticModel = cultgruntjacketGround,
+        WorldStaticModel = Providence_clothing_box,
     }
     item Providence_wyoming_grunt_trousers
     {
@@ -375,7 +375,7 @@ module WLRob
         Insulation = 0.4,
         WindResistance = 0.2,
         FabricType = Cotton,
-        WorldStaticModel = greencultgrunttrousersGround,
+        WorldStaticModel = Providence_clothing_box,
     }
     item Providence_tie_bolotiefull
 	{

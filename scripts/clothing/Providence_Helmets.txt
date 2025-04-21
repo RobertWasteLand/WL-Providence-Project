@@ -21,7 +21,7 @@ module WLRob
 		Insulation = 0.25,
 		WaterResistance = 0.2,
         Weight = 3,
-        WorldStaticModel = white_heavycultcap_Ground,
+        WorldStaticModel = Providence_clothing_box,
     }
     item Providence_enforcer_cap
 	{
@@ -39,7 +39,7 @@ module WLRob
 		Insulation = 0.25,
 		WaterResistance = 0.2,
         Weight = 3,
-        WorldStaticModel = enforcerhelmet_Ground,
+        WorldStaticModel = Providence_clothing_box,
     }
     item Providence_black_heavy_cult_cap
 	{
@@ -57,7 +57,7 @@ module WLRob
 		Insulation = 0.25,
 		WaterResistance = 0.2,
         Weight = 3,
-        WorldStaticModel = black_heavycultcap_Ground,
+        WorldStaticModel = Providence_clothing_box,
     }
     item Providence_cult_commander_cap
 	{
@@ -75,7 +75,7 @@ module WLRob
 		Insulation = 0.25,
 		WaterResistance = 0.2,
         Weight = 3,
-        WorldStaticModel = supremecultcommandercap_Ground,
+        WorldStaticModel = Providence_clothing_box,
     }
     item Providence_fez
 	{
@@ -93,7 +93,7 @@ module WLRob
 		Insulation = 0.25,
 		WaterResistance = 0.2,
         Weight = 3,
-        WorldStaticModel = fez_ground,
+        WorldStaticModel = Providence_clothing_box,
     }
     item Providence_tank_driver_helmet
 	{
@@ -111,7 +111,7 @@ module WLRob
 		Insulation = 0.25,
 		WaterResistance = 0.2,
         Weight = 3,
-        WorldStaticModel = Tankdriverscraphelmet_ground,
+        WorldStaticModel = Providence_clothing_box,
     }
     item Providence_black_grunt_cap
 	{
@@ -129,7 +129,7 @@ module WLRob
 		Insulation = 0.25,
 		WaterResistance = 0.2,
         Weight = 3,
-        WorldStaticModel = BlackProvidenceSoldierCap_Ground,
+        WorldStaticModel = Providence_clothing_box,
 		ClothingItemExtra = Providence_black_grunt_cap_visor_on,
         ClothingItemExtraOption = HelmetVisorDown,
         clothingExtraSubmenu = HelmetVisorUp,
@@ -150,7 +150,7 @@ module WLRob
 		Insulation = 0.25,
 		WaterResistance = 0.2,
         Weight = 3,
-        WorldStaticModel = BlackProvidenceSoldierCap_Ground,
+        WorldStaticModel = Providence_clothing_box,
 		ClothingItemExtra = Providence_black_grunt_cap,
         ClothingItemExtraOption = HelmetVisorDown,
         clothingExtraSubmenu = HelmetVisorUp,
@@ -171,7 +171,7 @@ module WLRob
 		Insulation = 0.25,
 		WaterResistance = 0.2,
         Weight = 3,
-        WorldStaticModel = BlackProvidenceSoldierCap_Ground,
+        WorldStaticModel = Providence_clothing_box,
 		ClothingItemExtra = Providence_medical_grunt_cap_visor_on,
         ClothingItemExtraOption = HelmetVisorDown,
         clothingExtraSubmenu = HelmetVisorUp,
@@ -192,7 +192,7 @@ module WLRob
 		Insulation = 0.25,
 		WaterResistance = 0.2,
         Weight = 3,
-        WorldStaticModel = BlackProvidenceSoldierCap_Ground,
+        WorldStaticModel = Providence_clothing_box,
 		ClothingItemExtra = Providence_medical_grunt_cap,
         ClothingItemExtraOption = HelmetVisorDown,
         clothingExtraSubmenu = HelmetVisorUp,
@@ -213,7 +213,7 @@ module WLRob
 		Insulation = 0.25,
 		WaterResistance = 0.2,
         Weight = 3,
-        WorldStaticModel = BlackProvidenceSoldierCap_Ground,
+        WorldStaticModel = Providence_clothing_box,
 		ClothingItemExtra = Providence_grenadier_cap_visor_on,
         ClothingItemExtraOption = HelmetVisorDown,
         clothingExtraSubmenu = HelmetVisorUp,
@@ -234,7 +234,7 @@ module WLRob
 		Insulation = 0.25,
 		WaterResistance = 0.2,
         Weight = 3,
-        WorldStaticModel = BlackProvidenceSoldierCap_Ground,
+        WorldStaticModel = Providence_clothing_box,
 		ClothingItemExtra = Providence_grenadier_cap,
         ClothingItemExtraOption = HelmetVisorDown,
         clothingExtraSubmenu = HelmetVisorUp,
@@ -255,7 +255,7 @@ module WLRob
 		Insulation = 0.25,
 		WaterResistance = 0.2,
         Weight = 3,
-        WorldStaticModel = BlackProvidenceSoldierCap_Ground,
+        WorldStaticModel = Providence_clothing_box,
     }
     item Providence_artillery_cap
 	{
@@ -273,17 +273,17 @@ module WLRob
 		Insulation = 0.25,
 		WaterResistance = 0.2,
         Weight = 3,
-        WorldStaticModel = GreenProvidenceSoldierCap_Ground,
-		ClothingItemExtra = Providence_artillery_gap_visor_on,
+        WorldStaticModel = Providence_clothing_box,
+		ClothingItemExtra = Providence_artillery_cap_visor_on,
         ClothingItemExtraOption = HelmetVisorDown,
         clothingExtraSubmenu = HelmetVisorUp,
     }
-    item Providence_artillery_gap_visor_on
+    item Providence_artillery_cap_visor_on
 	{
 	    DisplayCategory = Accessory,
 		Type = Clothing,
 		DisplayName = Providence Artillery Grunt Cap Visor-On,
-		ClothingItem = Providence_artillery_gap_visor_on,
+		ClothingItem = Providence_artillery_cap_visor_on,
 		BodyLocation = Hat,
 		Icon = GreenProvCapTex,
 		CanHaveHoles = false,
@@ -294,7 +294,7 @@ module WLRob
 		Insulation = 0.25,
 		WaterResistance = 0.2,
         Weight = 3,
-        WorldStaticModel = GreenProvidenceSoldierCap_Ground,
+        WorldStaticModel = Providence_clothing_box,
 		ClothingItemExtra = Providence_artillery_cap,
         ClothingItemExtraOption = HelmetVisorDown,
         clothingExtraSubmenu = HelmetVisorUp,
@@ -315,7 +315,7 @@ module WLRob
 		Insulation = 0.25,
 		WaterResistance = 0.2,
         Weight = 3,
-        WorldStaticModel = WyomingProvidenceSoldierCap_Ground,
+        WorldStaticModel = Providence_clothing_box,
 		ClothingItemExtra = Providence_wyoming_grunt_cap_visor_on,
         ClothingItemExtraOption = HelmetVisorDown,
         clothingExtraSubmenu = HelmetVisorUp,
@@ -336,7 +336,7 @@ module WLRob
 		Insulation = 0.25,
 		WaterResistance = 0.2,
         Weight = 3,
-        WorldStaticModel = WyomingProvidenceSoldierCap_Ground,
+        WorldStaticModel = Providence_clothing_box,
 		ClothingItemExtra = Providence_wyoming_grunt_cap,
         ClothingItemExtraOption = HelmetVisorDown,
         clothingExtraSubmenu = HelmetVisorUp,

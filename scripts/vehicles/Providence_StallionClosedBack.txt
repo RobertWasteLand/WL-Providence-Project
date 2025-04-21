@@ -1,6 +1,6 @@
 module Base
 {
-	model StallionMilitaryClosedBackbase
+	model Providence_StallionMilitaryClosedBackbase
     {
         mesh = vehicles/Vehicle_Stallion_Closed_body,  
         shader = vehicle,
@@ -23,7 +23,7 @@ module Base
 		mesh = vehicles/stallionbackwheel,
 		texture = vehicles/stallionregwheel,
 	}
-	vehicle StallionMilitaryClosedBack
+	vehicle ProvidenceStallionMilitaryClosedBack
 	{
 		mechanicType = 1,
 		offRoadEfficiency = 0.7,
@@ -32,7 +32,7 @@ module Base
 
 		model
 		{
-			file = StallionMilitaryClosedBackbase,
+			file = Providence_StallionMilitaryClosedBackbase,
 			scale = 0.7400,
 			offset = 0.0000 0.5000 -0.0135,
 		}

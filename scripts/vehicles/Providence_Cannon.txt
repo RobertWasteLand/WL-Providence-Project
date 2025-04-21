@@ -1,6 +1,6 @@
 module Base
 {
-	model VehiclesCannonBase
+	model TrailerProvidenceBase
 	{
 		mesh = vehicles/vehicle_Cannon,
 		shader = vehicle,
@@ -18,7 +18,7 @@ module Base
 		mesh = vehicles/CannonWheelRight,
 		texture = vehicles/CannonWheelTexture,
 	}
-	vehicle TrailerCannon
+	vehicle TrailerProvidenceCannon
 	{
 		mechanicType = 1,
 		offRoadEfficiency = 0.8,
@@ -27,7 +27,7 @@ module Base
 
 		model
 		{
-			file = VehiclesCannonBase,
+			file = TrailerProvidenceBase,
 			scale = 1.3700,
 			offset = 0.0000 0.3869 0.0000,
 		}

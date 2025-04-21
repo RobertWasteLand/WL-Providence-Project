@@ -1,6 +1,6 @@
 module Base
 {
-	model BatteringRamBase
+	model Providence_BatteringramBase
     {
         mesh = vehicles/Vehicle_batteringram_body,  
         shader = vehicle,
@@ -28,7 +28,7 @@ module Base
 		mesh = vehicles/Vehicle_batteringram_wheel,
 		texture = vehicles/Vehicles_RobBatteringRamTex,
 	}
-	vehicle BatteringRamHeavyTank
+	vehicle ProvidenceBatteringRamHeavyTank
 	{
 		mechanicType = 2,
 		engineRepairLevel = 5,
@@ -37,7 +37,7 @@ module Base
 
 		model
 		{
-			file = BatteringRamBase,
+			file = Providence_BatteringramBase,
 			scale = 1.0000,
 			offset = 0.0000 0.3700 0.0000,
 		}

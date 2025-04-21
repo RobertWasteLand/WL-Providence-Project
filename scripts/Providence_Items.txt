@@ -1,0 +1,33 @@
+module Base
+
+{
+	model Providence_money_ground
+	{
+		mesh = WorldItems/Providence_money,
+		texture = WorldItems/Providence_money_texture,
+		scale = 0.1,
+	}
+	model Providence_map_ground
+	{
+		mesh = WorldItems/Map,
+		texture = WorldItems/Providence_map_texture,
+		scale = 0.5,
+	}
+	model ProvidenceBattleStandard
+	{
+		mesh = Weapons/2Handed/ProvidenceBattleStandardModel,
+		texture = Weapons/2Handed/ProvidenceBattleStandardtex,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model Providence_clothing_box
+	{
+		mesh = WorldItems/Providence_clothing_box,
+		texture = Providence_clothing_box_texture,
+		scale = 0.5,
+	}
+}
