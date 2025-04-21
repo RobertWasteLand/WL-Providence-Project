@@ -42,4 +42,52 @@ module Base
 		texture = WorldItems/Providence_artilleryshell_texture,
 		scale = 0.5,
 	}
+	model Providence_Oklahoma_Cover
+	{
+		mesh = WorldItems/Providence_musiccover,
+		texture = MusicCovers/Providence_Oklahoma_Cover,
+		scale = 0.5,
+	}
+	model Providence_greatsongsoftheoldwest_Cover
+	{
+		mesh = WorldItems/Providence_musiccover,
+		texture = MusicCovers/Providence_greatsongsoftheoldwest_Cover,
+		scale = 0.5,
+	}
+	model Providence_westernhits_Cover
+	{
+		mesh = WorldItems/Providence_musiccover,
+		texture = MusicCovers/Providence_westernhits_Cover,
+		scale = 0.5,
+	}
+	model Providence_BabyBilly_Cover
+	{
+		mesh = WorldItems/Providence_musiccover,
+		texture = MusicCovers/Providence_BabyBilly_Cover,
+		scale = 0.5,
+	}
+	model Providence_Williams_Cover
+	{
+		mesh = WorldItems/Providence_musiccover,
+		texture = MusicCovers/Providence_Williams_Cover,
+		scale = 0.5,
+	}
+	model Providence_Andy_Cover
+	{
+		mesh = WorldItems/Providence_musiccover,
+		texture = MusicCovers/Providence_Andy_Cover,
+		scale = 0.5,
+	}
+	model Providence_kay_Cover
+	{
+		mesh = WorldItems/Providence_musiccover,
+		texture = MusicCovers/Providence_kay_Cover,
+		scale = 0.5,
+	}
+	model Providence_drhook_Cover
+	{
+		mesh = WorldItems/Providence_musiccover,
+		texture = MusicCovers/Providence_drhook_Cover,
+		scale = 0.5,
+	}
 }

@@ -211,9 +211,9 @@ module Tsarcraft
 		Type			=	Normal,
 		DisplayCategory = Entertainment,
 		Weight			=	0.02,
-		Icon			=	TCTape6,
-		DisplayName		=	Cassette Providence Music- Cool Water,
-		WorldStaticModel = Tsarcraft.TCTape6,
+		Icon			=	Providence_music_Icon.png,
+		DisplayName		=	Cassette Providence Music - Cool Water - Rob Rogers,
+		WorldStaticModel = Providence_greatsongsoftheoldwest_Cover,
 	}
 
 	item CassetteProvidenceMusicHomeontheRange
@@ -221,9 +221,9 @@ module Tsarcraft
 		Type			=	Normal,
 		DisplayCategory = Entertainment,
 		Weight			=	0.02,
-		Icon			=	TCTape10,
-		DisplayName		=	Cassette Providence Music- Home on the Range,
-		WorldStaticModel = Tsarcraft.TCTape10,
+		Icon			=	Providence_music_Icon.png,
+		DisplayName		=	Cassette Providence Music - Home on the Range - Rob Rogers,
+		WorldStaticModel = Providence_greatsongsoftheoldwest_Cover,
 	}
 
 	item CassetteProvidenceMusicJingleJangleJingle
@@ -231,9 +231,9 @@ module Tsarcraft
 		Type			=	Normal,
 		DisplayCategory = Entertainment,
 		Weight			=	0.02,
-		Icon			=	TCTape7,
-		DisplayName		=	Cassette Providence Music- Jingle Jangle Jingle,
-		WorldStaticModel = Tsarcraft.TCTape7,
+		Icon			=	Providence_music_Icon.png,
+		DisplayName		=	Cassette Providence Music - Jingle Jangle Jingle,
+		WorldStaticModel = Providence_kay_Cover,
 	}
 
 	item CassetteProvidenceMusicKansasCity
@@ -241,9 +241,9 @@ module Tsarcraft
 		Type			=	Normal,
 		DisplayCategory = Entertainment,
 		Weight			=	0.02,
-		Icon			=	TCTape5,
-		DisplayName		=	Cassette Providence Music- Kansas City,
-		WorldStaticModel = Tsarcraft.TCTape5,
+		Icon			=	Providence_music_Icon.png,
+		DisplayName		=	Cassette Providence Music - Kansas City,
+		WorldStaticModel = Providence_Oklahoma_Cover,
 	}
 
 	item CassetteProvidenceMusicKeepYourRiflebyYourSide
@@ -251,9 +251,9 @@ module Tsarcraft
 		Type			=	Normal,
 		DisplayCategory = Entertainment,
 		Weight			=	0.02,
-		Icon			=	TCTape6,
-		DisplayName		=	Cassette Providence Music- Keep Your Rifle by Your Side,
-		WorldStaticModel = Tsarcraft.TCTape6,
+		Icon			=	Providence_music_Icon.png,
+		DisplayName		=	Cassette Providence Music - Keep Your Rifle by Your Side  - The Providence Choir,
+		WorldStaticModel = Providence_westernhits_Cover,
 	}
 
 	item CassetteProvidenceMusicNowHesOurFather
@@ -261,9 +261,9 @@ module Tsarcraft
 		Type			=	Normal,
 		DisplayCategory = Entertainment,
 		Weight			=	0.02,
-		Icon			=	TCTape8,
-		DisplayName		=	Cassette Providence Music- Now Hes Our Father,
-		WorldStaticModel = Tsarcraft.TCTape8,
+		Icon			=	Providence_music_Icon.png,
+		DisplayName		=	Cassette Providence Music - Now Hes Our Father - The Providence Choir,
+		WorldStaticModel = Providence_westernhits_Cover,
 	}
 
 	item CassetteProvidenceMusicOhJohnTheHopeCountyChoir
@@ -271,9 +271,9 @@ module Tsarcraft
 		Type			=	Normal,
 		DisplayCategory = Entertainment,
 		Weight			=	0.02,
-		Icon			=	TCTape7,
-		DisplayName		=	Cassette Providence Music- Oh John - The Hope County Choir,
-		WorldStaticModel = Tsarcraft.TCTape7,
+		Icon			=	Providence_music_Icon.png,
+		DisplayName		=	Cassette Providence Music - Oh John - The Providence Choir,
+		WorldStaticModel = Providence_westernhits_Cover,
 	}
 
 	item CassetteProvidenceMusicOhWhatABeautifulMorninGordonMacRae
@@ -281,9 +281,9 @@ module Tsarcraft
 		Type			=	Normal,
 		DisplayCategory = Entertainment,
 		Weight			=	0.02,
-		Icon			=	TCTape2,
-		DisplayName		=	Cassette Providence Music- Oh What A Beautiful Mornin - Gordon MacRae,
-		WorldStaticModel = Tsarcraft.TCTape2,
+		Icon			=	Providence_music_Icon.png,
+		DisplayName		=	Cassette Providence Music - Oh What A Beautiful Mornin - Gordon MacRae,
+		WorldStaticModel = Providence_Oklahoma_Cover,
 	}
 
 	item CassetteProvidenceMusicOklahomaGordonMacRaeCharlotteGreenwoodShirleyJones
@@ -291,9 +291,9 @@ module Tsarcraft
 		Type			=	Normal,
 		DisplayCategory = Entertainment,
 		Weight			=	0.02,
-		Icon			=	TCTape11,
-		DisplayName		=	Cassette Providence Music- Oklahoma - Gordon MacRae Charlotte Greenwood Shirley Jones,
-		WorldStaticModel = Tsarcraft.TCTape11,
+		Icon			=	Providence_music_Icon.png,
+		DisplayName		=	Cassette Providence Music - Oklahoma - Gordon MacRae Charlotte Greenwood Shirley Jones,
+		WorldStaticModel = Providence_Oklahoma_Cover,
 	}
 
 	item CassetteProvidenceMusicPraiseTheLordAndPassTheAmmunitionKayKyserandHisOrchestra
@@ -301,9 +301,9 @@ module Tsarcraft
 		Type			=	Normal,
 		DisplayCategory = Entertainment,
 		Weight			=	0.02,
-		Icon			=	TCTape9,
-		DisplayName		=	Cassette Providence Music- Praise The Lord And Pass The Ammunition - Kay Kyser and His Orchestra,
-		WorldStaticModel = Tsarcraft.TCTape9,
+		Icon			=	Providence_music_Icon.png,
+		DisplayName		=	Cassette Providence Music - Praise The Lord And Pass The Ammunition - Kay Kyser and His Orchestra,
+		WorldStaticModel = Providence_kay_Cover,
 	}
 
 	item CassetteProvidenceMusicSharingTheNightTogetherDrHook
@@ -311,9 +311,9 @@ module Tsarcraft
 		Type			=	Normal,
 		DisplayCategory = Entertainment,
 		Weight			=	0.02,
-		Icon			=	TCTape10,
-		DisplayName		=	Cassette Providence Music- Sharing The Night Together - Dr. Hook,
-		WorldStaticModel = Tsarcraft.TCTape10,
+		Icon			=	Providence_music_Icon.png,
+		DisplayName		=	Cassette Providence Music - Sharing The Night Together - Dr. Hook,
+		WorldStaticModel = Providence_drhook_Cover,
 	}
 
 	item CassetteProvidenceMusicSomeBrokenHeartsNeverMend
@@ -321,9 +321,9 @@ module Tsarcraft
 		Type			=	Normal,
 		DisplayCategory = Entertainment,
 		Weight			=	0.02,
-		Icon			=	TCTape11,
-		DisplayName		=	Cassette Providence Music- Some Broken Hearts Never Mend,
-		WorldStaticModel = Tsarcraft.TCTape11,
+		Icon			=	Providence_music_Icon.png,
+		DisplayName		=	Cassette Providence Music - Some Broken Hearts Never Mend - Don Williams,
+		WorldStaticModel = Providence_Williams_Cover,
 	}
 
 	item CassetteProvidenceMusicSongWagonRoyRogersDaleEvans
@@ -331,9 +331,9 @@ module Tsarcraft
 		Type			=	Normal,
 		DisplayCategory = Entertainment,
 		Weight			=	0.02,
-		Icon			=	TCTape8,
-		DisplayName		=	Cassette Providence Music- Song Wagon - Roy Rogers Dale Evans,
-		WorldStaticModel = Tsarcraft.TCTape8,
+		Icon			=	Providence_music_Icon.png,
+		DisplayName		=	Cassette Providence Music - Song Wagon - Rob Rogers,
+		WorldStaticModel = Providence_greatsongsoftheoldwest_Cover,
 	}
 
 	item CassetteProvidenceMusicTheSagaofAndyBurnett
@@ -341,9 +341,9 @@ module Tsarcraft
 		Type			=	Normal,
 		DisplayCategory = Entertainment,
 		Weight			=	0.02,
-		Icon			=	TCTape7,
-		DisplayName		=	Cassette Providence Music- The Saga of Andy Burnett,
-		WorldStaticModel = Tsarcraft.TCTape7,
+		Icon			=	Providence_music_Icon.png,
+		DisplayName		=	Cassette Providence Music - The Saga of Andy Burnett,
+		WorldStaticModel = Providence_Andy_Cover,
 	}
 
 	item CassetteProvidenceMusicTheSurreyWithTheFringeOnTop
@@ -351,9 +351,9 @@ module Tsarcraft
 		Type			=	Normal,
 		DisplayCategory = Entertainment,
 		Weight			=	0.02,
-		Icon			=	TCTape6,
-		DisplayName		=	Cassette Providence Music- The Surrey With The Fringe On Top,
-		WorldStaticModel = Tsarcraft.TCTape6,
+		Icon			=	Providence_music_Icon.png,
+		DisplayName		=	Cassette Providence Music - The Surrey With The Fringe On Top,
+		WorldStaticModel = Providence_Oklahoma_Cover,
 	}
 
 	item CassetteProvidenceMusicTherellComeaPayday
@@ -361,9 +361,9 @@ module Tsarcraft
 		Type			=	Normal,
 		DisplayCategory = Entertainment,
 		Weight			=	0.02,
-		Icon			=	TCTape1,
-		DisplayName		=	Cassette Providence Music- Therell Come a Payday,
-		WorldStaticModel = Tsarcraft.TCTape1,
+		Icon			=	Providence_music_Icon.png,
+		DisplayName		=	Cassette Providence Music - Therell Come a Payday - Baby Billy,
+		WorldStaticModel = Providence_BabyBilly_Cover,
 	}
 
 	item CassetteProvidenceMusicWhopeeTiYiYo
@@ -371,9 +371,9 @@ module Tsarcraft
 		Type			=	Normal,
 		DisplayCategory = Entertainment,
 		Weight			=	0.02,
-		Icon			=	TCTape9,
-		DisplayName		=	Cassette Providence Music- Whopee Ti Yi Yo,
-		WorldStaticModel = Tsarcraft.TCTape9,
+		Icon			=	Providence_music_Icon.png,
+		DisplayName		=	Cassette Providence Music - Whopee Ti Yi Yo - Rob Rogers,
+		WorldStaticModel = Providence_greatsongsoftheoldwest_Cover,
 	}
 
 	item CassetteProwlerBohrenderClubofGore
