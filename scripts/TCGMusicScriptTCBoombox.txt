@@ -211,7 +211,7 @@ module Tsarcraft
 		Type			=	Normal,
 		DisplayCategory = Entertainment,
 		Weight			=	0.02,
-		Icon			=	Providence_music_Icon.png,
+		Icon			=	music7_icon,
 		DisplayName		=	Cassette Providence Music - Cool Water - Rob Rogers,
 		WorldStaticModel = Providence_greatsongsoftheoldwest_Cover,
 	}
@@ -221,7 +221,7 @@ module Tsarcraft
 		Type			=	Normal,
 		DisplayCategory = Entertainment,
 		Weight			=	0.02,
-		Icon			=	Providence_music_Icon.png,
+		Icon			=	music7_icon,
 		DisplayName		=	Cassette Providence Music - Home on the Range - Rob Rogers,
 		WorldStaticModel = Providence_greatsongsoftheoldwest_Cover,
 	}
@@ -231,7 +231,7 @@ module Tsarcraft
 		Type			=	Normal,
 		DisplayCategory = Entertainment,
 		Weight			=	0.02,
-		Icon			=	Providence_music_Icon.png,
+		Icon			=	music5_icon,
 		DisplayName		=	Cassette Providence Music - Jingle Jangle Jingle,
 		WorldStaticModel = Providence_kay_Cover,
 	}
@@ -241,7 +241,7 @@ module Tsarcraft
 		Type			=	Normal,
 		DisplayCategory = Entertainment,
 		Weight			=	0.02,
-		Icon			=	Providence_music_Icon.png,
+		Icon			=	music6_icon,
 		DisplayName		=	Cassette Providence Music - Kansas City,
 		WorldStaticModel = Providence_Oklahoma_Cover,
 	}
@@ -251,7 +251,7 @@ module Tsarcraft
 		Type			=	Normal,
 		DisplayCategory = Entertainment,
 		Weight			=	0.02,
-		Icon			=	Providence_music_Icon.png,
+		Icon			=	music8_icon,
 		DisplayName		=	Cassette Providence Music - Keep Your Rifle by Your Side  - The Providence Choir,
 		WorldStaticModel = Providence_westernhits_Cover,
 	}
@@ -261,7 +261,7 @@ module Tsarcraft
 		Type			=	Normal,
 		DisplayCategory = Entertainment,
 		Weight			=	0.02,
-		Icon			=	Providence_music_Icon.png,
+		Icon			=	music8_icon,
 		DisplayName		=	Cassette Providence Music - Now Hes Our Father - The Providence Choir,
 		WorldStaticModel = Providence_westernhits_Cover,
 	}
@@ -271,7 +271,7 @@ module Tsarcraft
 		Type			=	Normal,
 		DisplayCategory = Entertainment,
 		Weight			=	0.02,
-		Icon			=	Providence_music_Icon.png,
+		Icon			=	music8_icon,
 		DisplayName		=	Cassette Providence Music - Oh John - The Providence Choir,
 		WorldStaticModel = Providence_westernhits_Cover,
 	}
@@ -281,7 +281,7 @@ module Tsarcraft
 		Type			=	Normal,
 		DisplayCategory = Entertainment,
 		Weight			=	0.02,
-		Icon			=	Providence_music_Icon.png,
+		Icon			=	music6_icon,
 		DisplayName		=	Cassette Providence Music - Oh What A Beautiful Mornin - Gordon MacRae,
 		WorldStaticModel = Providence_Oklahoma_Cover,
 	}
@@ -291,7 +291,7 @@ module Tsarcraft
 		Type			=	Normal,
 		DisplayCategory = Entertainment,
 		Weight			=	0.02,
-		Icon			=	Providence_music_Icon.png,
+		Icon			=	music6_icon,
 		DisplayName		=	Cassette Providence Music - Oklahoma - Gordon MacRae Charlotte Greenwood Shirley Jones,
 		WorldStaticModel = Providence_Oklahoma_Cover,
 	}
@@ -301,7 +301,7 @@ module Tsarcraft
 		Type			=	Normal,
 		DisplayCategory = Entertainment,
 		Weight			=	0.02,
-		Icon			=	Providence_music_Icon.png,
+		Icon			=	music5_icon,
 		DisplayName		=	Cassette Providence Music - Praise The Lord And Pass The Ammunition - Kay Kyser and His Orchestra,
 		WorldStaticModel = Providence_kay_Cover,
 	}
@@ -311,7 +311,7 @@ module Tsarcraft
 		Type			=	Normal,
 		DisplayCategory = Entertainment,
 		Weight			=	0.02,
-		Icon			=	Providence_music_Icon.png,
+		Icon			=	music4_icon,
 		DisplayName		=	Cassette Providence Music - Sharing The Night Together - Dr. Hook,
 		WorldStaticModel = Providence_drhook_Cover,
 	}
@@ -321,7 +321,7 @@ module Tsarcraft
 		Type			=	Normal,
 		DisplayCategory = Entertainment,
 		Weight			=	0.02,
-		Icon			=	Providence_music_Icon.png,
+		Icon			=	music3_icon,
 		DisplayName		=	Cassette Providence Music - Some Broken Hearts Never Mend - Don Williams,
 		WorldStaticModel = Providence_Williams_Cover,
 	}
@@ -331,7 +331,7 @@ module Tsarcraft
 		Type			=	Normal,
 		DisplayCategory = Entertainment,
 		Weight			=	0.02,
-		Icon			=	Providence_music_Icon.png,
+		Icon			=	music7_icon,
 		DisplayName		=	Cassette Providence Music - Song Wagon - Rob Rogers,
 		WorldStaticModel = Providence_greatsongsoftheoldwest_Cover,
 	}
@@ -341,7 +341,7 @@ module Tsarcraft
 		Type			=	Normal,
 		DisplayCategory = Entertainment,
 		Weight			=	0.02,
-		Icon			=	Providence_music_Icon.png,
+		Icon			=	music1_icon,
 		DisplayName		=	Cassette Providence Music - The Saga of Andy Burnett,
 		WorldStaticModel = Providence_Andy_Cover,
 	}
@@ -351,7 +351,7 @@ module Tsarcraft
 		Type			=	Normal,
 		DisplayCategory = Entertainment,
 		Weight			=	0.02,
-		Icon			=	Providence_music_Icon.png,
+		Icon			=	music6_icon,
 		DisplayName		=	Cassette Providence Music - The Surrey With The Fringe On Top,
 		WorldStaticModel = Providence_Oklahoma_Cover,
 	}
@@ -361,7 +361,7 @@ module Tsarcraft
 		Type			=	Normal,
 		DisplayCategory = Entertainment,
 		Weight			=	0.02,
-		Icon			=	Providence_music_Icon.png,
+		Icon			=	music2_icon,
 		DisplayName		=	Cassette Providence Music - Therell Come a Payday - Baby Billy,
 		WorldStaticModel = Providence_BabyBilly_Cover,
 	}
@@ -371,7 +371,7 @@ module Tsarcraft
 		Type			=	Normal,
 		DisplayCategory = Entertainment,
 		Weight			=	0.02,
-		Icon			=	Providence_music_Icon.png,
+		Icon			=	music7_icon,
 		DisplayName		=	Cassette Providence Music - Whopee Ti Yi Yo - Rob Rogers,
 		WorldStaticModel = Providence_greatsongsoftheoldwest_Cover,
 	}

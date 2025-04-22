@@ -7,7 +7,7 @@ module WLRob
 		Weight = 0.1,
 		Type = Map,
 		DisplayName = Providence Legal Tender,
-		Icon = Providence_currency_icon.png,
+		Icon = providencetender_icon,
 		Map = Providence_Currency,
 		Tooltip = Tooltip_ProvidenceCurrency,
 		WorldStaticModel = Providence_money_ground
@@ -29,7 +29,7 @@ module WLRob
 		Weight = 30,
 		Type = Map,
 		DisplayName = Providence 1000g Gold Bar,
-		Icon = Providence_goldbar_Icon.png,
+		Icon = goldbarprovidence_icon,
 		Map = Providence_gold_bar,
 		Tooltip = Tooltip_Providencegoldbar,
 		WorldStaticModel = Providence_gold_bar_ground
@@ -40,7 +40,7 @@ module WLRob
 		Weight = 5,
 		Type = Map,
 		DisplayName = Providence Artillery Shell,
-		Icon = Providence_artilleryshell_Icon.png,
+		Icon = artileryshell_icon,
 		Map = Providence_artilleryshell,
 		Tooltip = Tooltip_Providenceartilleryshell,
 		WorldStaticModel = Providence_artilleryshell_ground

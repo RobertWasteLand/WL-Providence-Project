@@ -25,7 +25,7 @@ module WLRob
         SwingTime	=	2,
         KnockdownMod	=	0,
         SplatBloodOnNoDeath	=	FALSE,
-        Icon	=	ProvidenceBattleStandardIcon,
+        Icon	=	battlestandard_icon,
         RunAnim	=	Run_Weapon2,
         IdleAnim	=	Idle_Weapon2,
         TreeDamage  =   0,

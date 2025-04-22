@@ -8,5 +8,5 @@
 	<m_AllowRandomTint>false</m_AllowRandomTint>
 	<m_AttachBone>Bip01_Head</m_AttachBone>
 	<m_MasksFolder>none</m_MasksFolder>
-	<textureChoices>ProvidenceScoutAviators</textureChoices>
+	<textureChoices>ClothingTextures\ProvidenceScoutAviators</textureChoices>
 </clothingItem>

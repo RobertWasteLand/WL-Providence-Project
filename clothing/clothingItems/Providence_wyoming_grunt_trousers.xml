@@ -8,5 +8,5 @@
 	<m_AllowRandomTint>false</m_AllowRandomTint>
 	<m_AttachBone></m_AttachBone>
 	<m_MasksFolder>media/textures/Clothes/suittrousersmesh_suit</m_MasksFolder>
-	<textureChoices>SuitTrousersMesh_inf_wyoming</textureChoices>
+	<textureChoices>ClothingTextures\SuitTrousersMesh_inf_wyoming</textureChoices>
 </clothingItem>
