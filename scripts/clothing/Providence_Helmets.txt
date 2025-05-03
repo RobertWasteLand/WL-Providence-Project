@@ -120,7 +120,7 @@ module WLRob
 		DisplayName = Providence Grunt Cap,
 		ClothingItem = Providence_black_grunt_cap,
 		BodyLocation = Hat,
-		Icon = soilcapv_icon,
+		Icon = soilcap_icon,
 		CanHaveHoles = false,
 		BloodLocation = Head,
 		BiteDefense = 100,
