@@ -45,4 +45,7 @@ require "TCMusicDefenitions"
 	GlobalMusic["CassetteWackerJohnnyPearson"] = "tsarcraft_music_01_62"
 	GlobalMusic["CassetteWaitin'ForMyTraintoComeInMarkMaxwell"] = "tsarcraft_music_01_62"
 	GlobalMusic["CassetteWhyDon'tYouDoRightMarkMaxwell"] = "tsarcraft_music_01_62"
+	GlobalMusic["Cassettemisbehavin"] = "tsarcraft_music_01_62"
+	GlobalMusic["Cassettestormingwagner"] = "tsarcraft_music_01_62"
+	GlobalMusic["Cassettegoodolreligion"] = "tsarcraft_music_01_62"
 

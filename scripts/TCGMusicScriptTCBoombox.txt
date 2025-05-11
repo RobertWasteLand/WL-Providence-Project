@@ -216,6 +216,36 @@ module Tsarcraft
 		WorldStaticModel = Providence_greatsongsoftheoldwest_Cover,
 	}
 
+	item Cassettemisbehavin
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	music2_icon,
+		DisplayName		=	Cassette Providence Music - Misbehavin - Baby Billy,
+		WorldStaticModel = Providence_Misbehavin_Cover,
+	}
+
+	item Cassettestormingwagner
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	music8_icon,
+		DisplayName		=	Cassette Providence Music - Storming Fort Wager,
+		WorldStaticModel = Providence_Wagner_Cover,
+	}
+	
+	item Cassettegoodolreligion
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	music3_icon,
+		DisplayName		=	Cassette Providence Music - Old Time Religion,
+		WorldStaticModel = Providence_LynnLoretta_Cover,
+	}
+
 	item CassetteProvidenceMusicHomeontheRange
 	{
 		Type			=	Normal,

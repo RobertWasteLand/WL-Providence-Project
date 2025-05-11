@@ -450,4 +450,34 @@ module Tsarcraft
 			distanceMax = 75,
 		}
 	}
+	sound Cassettemisbehavin
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Misbehavin.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound Cassettestormingwagner
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Charging Fort Wagner James Horner.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound Cassettegoodolreligion
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Old Time Religion Lorettta Lynn.ogg,
+			distanceMax = 75,
+		}
+	}
 }

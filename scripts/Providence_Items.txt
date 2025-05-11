@@ -95,4 +95,22 @@ module Base
 		texture = MusicCovers/Providence_drhook_Cover,
 		scale = 0.5,
 	}
+	model Providence_LynnLoretta_Cover
+	{
+		mesh = WorldItems/Providence_musiccover,
+		texture = MusicCovers/Providence_LynnLoretta_Cover,
+		scale = 0.5,
+	}
+	model Providence_Misbehavin_Cover
+	{
+		mesh = WorldItems/Providence_musiccover,
+		texture = MusicCovers/Providence_Misbehavin_Cover,
+		scale = 0.5,
+	}
+	model Providence_Wagner_Cover
+	{
+		mesh = WorldItems/Providence_musiccover,
+		texture = MusicCovers/Providence_Wagner_Cover,
+		scale = 0.5,
+	}
 }

@@ -72,6 +72,14 @@
         <path>media/clothing/clothingItems/Providence_wyoming_grunt_cap_visor_on.xml</path>
         <guid>d63c42b3-ee9d-4191-9a83-9edee6c24b07</guid>
     </files>
+	<files>
+        <path>media/clothing/clothingItems/Providence_reinforced_helmet_open.xml</path>
+        <guid>45993386-9a49-4aa6-aee9-a85f74daaa3e</guid>
+    </files>
+	<files>
+        <path>media/clothing/clothingItems/Providence_reinforced_helmet_closed.xml</path>
+        <guid>c59c3fa8-b06a-4832-ac14-7a080d67b0c9</guid>
+    </files>
 	
 <!--                                            [Cult Other]                                                 -->
 

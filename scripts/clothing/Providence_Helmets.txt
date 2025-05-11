@@ -341,4 +341,44 @@ module WLRob
         ClothingItemExtraOption = HelmetVisorDown,
         clothingExtraSubmenu = HelmetVisorUp,
     }
+    item Providence_reinforced_helmet_open
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Providence Shocktrooper Helmet Open,
+		ClothingItem = Providence_reinforced_helmet_open,
+		BodyLocation = Hat,
+		Icon = stormtrooperhelmet_icon,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+		BiteDefense = 100,
+		ScratchDefense = 100,
+		ChanceToFall = 10,
+		Insulation = 0.25,
+		WaterResistance = 0.2,
+        WorldStaticModel = Providence_clothing_box,
+		ClothingItemExtra = Providence_reinforced_helmet_closed,
+        ClothingItemExtraOption = HelmetVisorDown,
+        clothingExtraSubmenu = HelmetVisorUp,
+	}
+    item Providence_reinforced_helmet_closed
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Providence Shocktrooper Helmet Closed,
+		ClothingItem = Providence_reinforced_helmet_closed,
+		BodyLocation = Hat,
+		Icon = stormtrooperhelmet_icon,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+		BiteDefense = 100,
+		ScratchDefense = 100,
+		ChanceToFall = 10,
+		Insulation = 0.25,
+		WaterResistance = 0.2,
+        WorldStaticModel = Providence_clothing_box,
+		ClothingItemExtra = Providence_reinforced_helmet_open,
+        ClothingItemExtraOption = HelmetVisorDown,
+        clothingExtraSubmenu = HelmetVisorUp,
+	}
 }
