@@ -171,6 +171,10 @@
         <path>media/clothing/clothingItems/Providence_jr_commander_coat.xml</path>
         <guid>bfa84095-4e8c-4859-bc7b-98f2fd9d801d</guid>
     </files>
+	<files>
+        <path>media/clothing/clothingItems/Providence_shocktrooperarmour.xml</path>
+        <guid>e785c592-fbc9-423e-851d-d7377a9c5a10</guid>
+    </files>
 
 <!--                                            [Frockin Shirts & Ties]                                                 -->
 

@@ -214,6 +214,24 @@ module WLRob
         Weight = 2.5,
         WorldStaticModel = Providence_clothing_box,
         }
+    item Providence_shocktrooperarmour
+         {
+        Type = Clothing,
+        DisplayName = Providence Shocktrooper Armour,
+        ClothingItem = Providence_shocktrooperarmour,
+        BodyLocation = TorsoExtra,
+        Icon = shockarmour_icon,
+        BloodLocation = ShirtNoSleeves,
+        RunSpeedModifier = 0.98,
+        CombatSpeedModifier = 0.98,
+        BiteDefense = 30,
+        ScratchDefense = 55,
+        BulletDefense = 100,
+        Insulation = 0.6,
+        WindResistance = 0.35,
+        Weight = 2.5,
+        WorldStaticModel = Providence_clothing_box,
+    }
     item Providence_jr_commander_jacket
     {
         DisplayCategory = Clothing,
