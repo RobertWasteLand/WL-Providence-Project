@@ -82,7 +82,10 @@
     </files>
 	
 <!--                                            [Cult Other]                                                 -->
-
+	<files>
+        <path>media/clothing/clothingItems/Providence_shocktrooperarmour.xml</path>
+        <guid>e785c592-fbc9-423e-851d-d7377a9c5a10</guid>
+    </files>
 	<files>
         <path>media/clothing/clothingItems/Providence_commander_cape.xml</path>
         <guid>5be45b69-b60c-4e96-b3ca-2d87cd3dcd8a</guid>
@@ -170,10 +173,6 @@
 	<files>
         <path>media/clothing/clothingItems/Providence_jr_commander_coat.xml</path>
         <guid>bfa84095-4e8c-4859-bc7b-98f2fd9d801d</guid>
-    </files>
-	<files>
-        <path>media/clothing/clothingItems/Providence_shocktrooperarmour.xml</path>
-        <guid>e785c592-fbc9-423e-851d-d7377a9c5a10</guid>
     </files>
 
 <!--                                            [Frockin Shirts & Ties]                                                 -->
